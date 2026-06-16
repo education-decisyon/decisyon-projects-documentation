@@ -29,17 +29,15 @@ MeetingSense is the meeting recording and transcription capability embedded in D
 
 Navigate to the SIM Board where the meeting takes place (**Digitized Idea & SIM System → SIM Boards → SIM 2**). The Plant, Production Area, and Date are pre-filled. Click **Start Meeting** in the top-right corner to open the meeting initialisation dialog.
 
-<figure><img src="../.gitbook/assets/sim-board-with-start-meeting-button-highlighted-in-the-top-r.png" alt="SIM Board with Start Meeting button highlighted"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/sim-board-with-start-meeting-button-highlighted-in-the-top-right-corner.png" alt="SIM Board with Start Meeting button highlighted"><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
 ### Initialise attendance and SIM Leader
 
-In the initialisation dialog:
+In the initialisation dialog, define the status of each participant (**On time, Late, Absent**, or **Not Required**), assign the **SIM Leader** (by default the current user, changeable via dropdown), and click **Start Meeting** to proceed.
 
-* Define the status of each participant: **On time, Late, Absent**, or **Not Required**
-* Assign the **SIM Leader** — by default the current user, changeable via dropdown
-* Confirm the settings and click **Start Meeting** to proceed
+<figure><img src=".gitbook/assets/meeting-initialisation-dialog-attendance-statuses-and-sim-leader-selector.png" alt="Meeting initialisation dialog with attendance statuses and SIM Leader selector"><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -47,7 +45,7 @@ In the initialisation dialog:
 
 Choose the desired microphone from the list of available audio inputs and confirm. If no microphone is detected, an error message is displayed and the recording cannot be started.
 
-<figure><img src="../.gitbook/assets/audio-input-device-selection-popup-with-a-microphone-confirm.png" alt="Audio input device selection popup with a microphone confirmed"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/audio-input-device-selection-popup-with-a-microphone-confirmed.png" alt="Audio input device selection popup with a microphone confirmed"><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -55,7 +53,7 @@ Choose the desired microphone from the list of available audio inputs and confir
 
 Speak clearly throughout the meeting and articulate the elements needed to create actions afterwards: a short description of the problem, the relevant Category (Safety, Quality, Delivery, Maintenance, Production, Engineering), the name of the assigned person, and the target completion date.
 
-<figure><img src="../.gitbook/assets/recording-widget-in-active-state-during-the-meeting,-with-se.png" alt="Recording widget in active state, with session duration and audio status indicator"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/recording-widget-in-active-state-during-the-meeting-with-session-duration-and-audio-status-indicator.png" alt="Recording widget in active state, with session duration and audio status indicator"><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 A pre-defined timeout protects against meetings left open by mistake: a notification dialog appears two minutes before the timeout to give you a chance to extend or stop the session manually.
@@ -67,7 +65,7 @@ A pre-defined timeout protects against meetings left open by mistake: a notifica
 
 Click the **Stop** control when the meeting is over. The system starts processing the audio in the background. While the transcription is being generated, you can move to other activities — the team does not need to wait on the meeting page. A notification confirms when the transcript and AI analysis are ready.
 
-<figure><img src="../.gitbook/assets/recording-stopped,-processing-indicator-and-confirmation-tha.png" alt="Recording stopped, processing indicator and confirmation that transcription is queued"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/recording-stopped-processing-indicator-and-confirmation-that-transcription-is-queued.png" alt="Recording stopped, processing indicator and confirmation that transcription is queued"><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -75,17 +73,17 @@ Click the **Stop** control when the meeting is over. The system starts processin
 
 Navigate to **Meeting → Overview Meeting**. The Overview Meeting page lists every recorded session in chronological order, showing title, SIM level, date, and SIM Leader. Click on a meeting to open its detail view.
 
-<figure><img src="../.gitbook/assets/overview-meeting-archive-with-the-list-of-recorded-sessions.png" alt="Overview Meeting archive with the list of recorded sessions"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/overview-meeting-archive-with-the-list-of-recorded-sessions.png" alt="Overview Meeting archive with the list of recorded sessions"><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/meeting-detail-view:-summary,-identified-issues,-ai-suggeste.png" alt="Meeting detail view: Summary, Identified Issues, AI-suggested actions, duration, attendance record"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/meeting-detail-view_summary-identified-issues-ai-suggested-actions.png" alt="Meeting detail view: Summary, Identified Issues, AI-suggested actions, duration, attendance record"><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
 ### Review and edit the transcript
 
-Click **Show Transcription** to display the verbatim text, which remains fully editable. Correct any misinterpretation made by the speech-to-text engine or add details that were said but not captured. When the transcript is updated, click **Generate meeting notes** to refresh the AI summary.
+Click **Show Transcription** to display the verbatim text, which remains fully editable. Correct any misinterpretation made by the speech-to-text engine or add details that were not captured. When the transcript is updated, click **Generate meeting notes** to refresh the AI summary.
 
-<figure><img src="../.gitbook/assets/transcript-pane-with-show-transcription-opened-and-generate-.png" alt="Transcript pane with Show Transcription opened and Generate meeting notes button"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/transcript-pane-with-show-transcription-opened-and-generate-meeting-notes-button.png" alt="Transcript pane with Show Transcription opened and Generate meeting notes button"><figcaption></figcaption></figure>
 {% endstep %}
 {% endstepper %}
 
