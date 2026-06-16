@@ -1,13 +1,27 @@
-# Summary
+# Table of contents
 
 * [Welcome](README.md)
 
-## Chapters
+## Getting Started
 
-* [1. Introduction](ch1-introduction.md)
-* [2. AI-Assisted 5W2H](ch2-ai-assisted-5w2h.md)
-* [3. Historical Lookup](ch3-historical-lookup.md)
-* [4. DeepFind](ch4-deepfind.md)
-* [5. MeetingSense](ch5-meetingsense.md)
-* [6. Meeting Insight](ch6-meeting-insight.md)
-* [7. Actions in SIM](ch7-actions-in-sim.md)
+* [Getting started](getting-started/getting-started.md)
+* [Quickstart](getting-started/quickstart.md)
+* [Your first project](getting-started/your-first-project.md)
+
+## Core concepts
+
+* [Core concepts](core-concepts/core-concepts.md)
+* [Workspaces and projects](core-concepts/workspaces-and-projects.md)
+* [Permissions](core-concepts/permissions.md)
+
+## Guides
+
+* [Guides](guides/guides.md)
+* [Custom domains](guides/custom-domains.md)
+* [Automations](guides/automations.md)
+
+## Reference
+
+* [Reference](reference/reference.md)
+* [Configuration](reference/configuration.md)
+* [Glossary](reference/glossary.md)
