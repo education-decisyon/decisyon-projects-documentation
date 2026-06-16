@@ -27,15 +27,13 @@ AI-Assisted 5W2H is a quality assessment widget that evaluates how complete and 
 
 Navigate to **Digitized Idea & SIM System → Kata QRCI**. The dashboard lists all existing Katas, filterable by date range, Status, and KPI. Click **Add** (top-right) to open the new Kata creation form.
 
-<figure><img src="../.gitbook/assets/kata-qrci_dashboard-with-kata-list-and-add-button-highlighte.png" alt="Kata QRCI dashboard with Add button highlighted"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/kata-qrci_dashboard-with-kata-list-and-add-button-highlighted.png" alt="Kata QRCI dashboard with Add button highlighted"><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
 ### Fill in the Kata header
 
 In the Add form, set the context fields: **Production Area** and **Line** (from the plant hierarchy), **Title** (a concise problem statement), **Leader** and **Coach** (both required), **Source** (the origin category of the problem — e.g. Downtime, Efficiency, Maintenance issues, Check Do check non-conformance, High lead time, Layered Process audit non-conformance), and **KPI** (e.g. OEE). Creation Date is pre-filled with today.
-
-<figure><img src="../.gitbook/assets/kata-qrci_add-form-with-header-fields-filled-in:-production-.png" alt="Kata QRCI Add form with header fields filled in"><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -43,21 +41,21 @@ In the Add form, set the context fields: **Production Area** and **Line** (from 
 
 In the **Current Status** and **Target (5W2H)** fields, describe the current situation and the desired end state clearly and measurably following the 5W2H framework: Who, What, Why, When, Where, How, How Many.
 
-<figure><img src="../.gitbook/assets/[-screenshot_5w2h_kata-form-with-current-state---target-stat.png" alt="Kata form with Current State and Target State fields"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/5w2h_kata-form-with-current-state-target-state-fields.png" alt="Kata form with Current State and Target State fields"><figcaption></figcaption></figure>
 
 As you type, the inline badge in the widget shows the current quality score and the character count. Click the inline badge to open the detailed popup. Review the circular score, the qualitative label, and the **Focus on:** priority area suggested by the AI. Add missing information in your text; the score updates as you save the field.
 
-<figure><img src="../.gitbook/assets/5w2h_inline-quality-badge-updating-live-as-the-user-types.png" alt="Inline quality badge updating live as the user types"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/5w2h_inline-quality-badge-updating-live-as-the-user-types.png" alt="Inline quality badge updating live as the user types"><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/5w2h_clicking-the-badge-opens-the-detailed-popup.png" alt="Clicking the badge opens the detailed popup"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/5w2h_clicking-the-badge-opens-the-detailed-popup.png" alt="Clicking the badge opens the detailed popup"><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/5w2h_detailed-popup-with-circular-score-and-focus-on-area.png" alt="Detailed popup with circular score and Focus on area"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/5w2h_detailed-popup-with-circular-score-and-focus-on-area.png" alt="Detailed popup with circular score and Focus on area"><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/5w2h_score-recalculated-after-adding-missing-information.png" alt="Score recalculated after adding missing information"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/5w2h_score-recalculated-after-adding-missing-information.png" alt="Score recalculated after adding missing information"><figcaption></figcaption></figure>
 
 Click **Save** to create the Kata.
 
-<figure><img src="../.gitbook/assets/kata-qrci_add-form-with-current-status-and-target-fields-(5w.png" alt="Add form with Current Status and Target fields filled in"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/kata-qrci_add-form-with-current-status-5w2h-and-target-fields-filled-in.png" alt="Add form with Current Status and Target (5W2H) fields filled in"><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -65,7 +63,7 @@ Click **Save** to create the Kata.
 
 The new Kata appears in the Kata QRCI list. Open it: the AI-Assisted 5W2H widget is now active on the Current State and Target State fields and begins evaluating the text you entered.
 
-<figure><img src="../.gitbook/assets/kata-qrci_newly-created-kata-visible-in-the-list,-ready-to-o.png" alt="Newly created Kata visible in the list, ready to open"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/kata-qrci_newly-created-kata-visible-in-the-list-ready-to-open.png" alt="Newly created Kata visible in the list, ready to open"><figcaption></figcaption></figure>
 {% endstep %}
 {% endstepper %}
 
