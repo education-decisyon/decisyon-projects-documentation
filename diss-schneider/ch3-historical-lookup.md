@@ -8,8 +8,6 @@ icon: clock-rotate-left
 
 Historical Lookup is an AI feature that, starting from the Kata QRCI you are currently working on, searches the closed Katas of the same Plant and returns the most similar ones. For each historical Kata the user can review the AI explanation of the match and import — selectively — the actions that were used to solve the past problem, accelerating the response to recurring issues.
 
-<figure><img src="../.gitbook/assets/historical-lookup-is-an-ai-feature-that,-starting-from-the-k.png" alt="Historical Lookup overview"><figcaption></figcaption></figure>
-
 ## When to use it
 
 * Whenever a problem on the shop floor feels familiar but the team cannot remember when, where, and how it was solved before
@@ -30,7 +28,7 @@ Historical Lookup is an AI feature that, starting from the Kata QRCI you are cur
 
 Open the Kata Dashboard in DISS.
 
-<figure><img src="../.gitbook/assets/historical-lookup_kata-dashboard-with-the-ai-tools-column-vi.png" alt="Kata Dashboard with the AI Tools column visible"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/historical-lookup_kata-dashboard-with-the-ai-tools-column-visible.png" alt="Kata Dashboard with the AI Tools column visible"><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -38,7 +36,7 @@ Open the Kata Dashboard in DISS.
 
 In the **AI Tools** column, click the Kata Similarity icon next to the Open Kata you are working on.
 
-<figure><img src="../.gitbook/assets/historical-lookup_icon-highlighted-on-a-kata-row.png" alt="Kata Similarity icon highlighted on a Kata row"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/historical-lookup_icon-highlighted-on-a-kata-row.png" alt="Kata Similarity icon highlighted on a Kata row"><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -46,7 +44,7 @@ In the **AI Tools** column, click the Kata Similarity icon next to the Open Kata
 
 The AI Historical Lookup modal opens and the search starts automatically — no additional input is required. Wait for the loading message ("AI-Powered Semantic Search…") to complete.
 
-<figure><img src="../.gitbook/assets/historical-lookup_modal-in-loading-state.png" alt="Historical Lookup modal in loading state"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/historical-lookup_modal-in-loading-state.png" alt="Historical Lookup modal in loading state"><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -54,7 +52,7 @@ The AI Historical Lookup modal opens and the search starts automatically — no 
 
 Review the up-to-5 closed Katas returned, sorted by similarity score descending.
 
-<figure><img src="../.gitbook/assets/historical-lookup_list-of-matches-with-similarity-scores.png" alt="List of matches with similarity scores"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/historical-lookup_list-of-matches-with-similarity-scores.png" alt="List of matches with similarity scores"><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -62,7 +60,7 @@ Review the up-to-5 closed Katas returned, sorted by similarity score descending.
 
 For each match, expand the **AI Analysis** accordion to read "Why it matches" and "Key Differences".
 
-<figure><img src="../.gitbook/assets/historical-lookup_ai-analysis-accordion-expanded.png" alt="AI Analysis accordion expanded"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/historical-lookup_ai-analysis-accordion-expanded.png" alt="AI Analysis accordion expanded"><figcaption></figcaption></figure>
 {% endstep %}
 {% endstepper %}
 
@@ -78,15 +76,13 @@ For each imported action: Title, description, and owner are copied from the sour
 
 In one of the matches, click **Reusable actions** to load that Kata's historical actions.
 
-<figure><img src="../.gitbook/assets/selective-action-copy_view-actions-toggle-expanded-for-a-mat.png" alt="Reusable actions toggle expanded for a match"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/selective-action-copy_view-actions-toggle-expanded-for-a-match.png" alt="Reusable actions toggle expanded for a match"><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
 ### Select the actions to import
 
 Use the checkboxes to pick individual actions, or use **Select All / Deselect All** to act on the entire Kata.
-
-<figure><img src="../.gitbook/assets/selective-action-copy_checkboxes-and-select-all-deselect-all.png" alt="Checkboxes and Select All / Deselect All controls"><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -94,31 +90,21 @@ Use the checkboxes to pick individual actions, or use **Select All / Deselect Al
 
 Optionally repeat for other matches: selection persists across multiple Katas in the same session.
 
-<figure><img src="../.gitbook/assets/selective-action-copy_multi-kata-selection-with-total-counte.png" alt="Multi-Kata selection with total counter visible"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/selective-action-copy_multi-kata-selection-with-total-counter-visible.png" alt="Multi-Kata selection with total counter visible"><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
 ### Import the selected actions
 
 Click **Import N Actions** at the bottom of the modal.
-
-<figure><img src="../.gitbook/assets/selective-action-copy_import-n-actions-button.png" alt="Import N Actions button"><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
-### Confirm the import
+### Confirm and check the imported actions
 
 The modal closes, a confirmation appears, and the current Kata's Actions table refreshes with the new records (Status = Open, no Due date).
 
-<figure><img src="../.gitbook/assets/selective-action-copy---modal-closes-and-confirmation-appears.png" alt="Modal closes and confirmation appears"><figcaption></figcaption></figure>
-{% endstep %}
-
-{% step %}
-### Check the imported actions
-
-Open the Kata where the Historical Lookup was activated. The Actions table shows the newly imported records with Status = Open and no Due date.
-
-<figure><img src="../.gitbook/assets/selective-action-copy_current-kata-actions-table-refreshed-w.png" alt="Current Kata Actions table refreshed with imported records"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/selective-action-copy_current-kata-actions-table-refreshed-with-imported-records.png" alt="Current Kata Actions table refreshed with imported records"><figcaption></figcaption></figure>
 {% endstep %}
 {% endstepper %}
 
