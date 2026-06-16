@@ -8,8 +8,6 @@ icon: chart-line
 
 Meeting Insight is an AI agent that works on top of the meetings already captured by MeetingSense. While MeetingSense focuses on a single recording, Meeting Insight analyses multiple meeting transcripts simultaneously to surface patterns, recurring issues, and aggregated action items across the whole archive. It transforms a stream of individual SIM minutes into operational intelligence at the plant or area level.
 
-<figure><img src="../.gitbook/assets/meeting-insight-is-an-ai-agent-that-works-on-top-of-the-meet.png" alt="Meeting Insight overview"><figcaption></figcaption></figure>
-
 ## When to use it
 
 * To answer "What problems keep coming back?" — Meeting Insight identifies recurring themes across SIM meetings over a chosen period
@@ -31,7 +29,7 @@ Meeting Insight is an AI agent that works on top of the meetings already capture
 
 Navigate to the **Overview Meeting** archive in DISS.
 
-<figure><img src="../.gitbook/assets/meeting-insight_overview-meeting-archive-page.png" alt="Overview Meeting archive page"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/meeting-insight_overview-meeting-archive-page.png" alt="Overview Meeting archive page"><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -39,7 +37,7 @@ Navigate to the **Overview Meeting** archive in DISS.
 
 Use date or organisational level filters to isolate the meetings relevant to your analysis scope.
 
-<figure><img src="../.gitbook/assets/meeting-insight_date-and-level-filters-on-the-archive.png" alt="Date and level filters on the archive"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/meeting-insight_date-and-level-filters-on-the-archive.png" alt="Date and level filters on the archive"><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -47,19 +45,15 @@ Use date or organisational level filters to isolate the meetings relevant to you
 
 Select multiple meetings using the checkboxes on the left of each row to define the analysis dataset.
 
-<figure><img src="../.gitbook/assets/meeting-insight_meetings-selected-via-checkboxes.png" alt="Meetings selected via checkboxes"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/meeting-insight_meetings-selected-via-checkboxes.png" alt="Meetings selected via checkboxes"><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
 ### Launch Meeting Insight
 
-Click **Summarize Notes** to launch the Insight Agent on the selected meetings.
+Click **Summarize Notes** to launch the Insight Agent on the selected meetings. The agent opens a dialog window where you can interact with the combined dataset of all selected transcripts.
 
-<figure><img src="../.gitbook/assets/meeting-insight_summarize-notes-button.png" alt="Summarize Notes button"><figcaption></figcaption></figure>
-
-The agent opens a dialog window where you can interact with the combined dataset of all selected transcripts.
-
-<figure><img src="../.gitbook/assets/meeting-insight_dialog-window-opened-with-combined-dataset.png" alt="Dialog window opened with combined dataset"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/meeting-insight_summarize-notes-button.png" alt="Summarize Notes button"><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -67,7 +61,7 @@ The agent opens a dialog window where you can interact with the combined dataset
 
 Use the side panel to view or deselect specific meetings without closing the dialog, keeping full control over the analysis scope.
 
-<figure><img src="../.gitbook/assets/meeting-insight_managing-the-active-selection-from-the-dialo.png" alt="Managing the active selection from the dialog"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/meeting-insight_managing-the-active-selection-from-the-dialog.png" alt="Managing the active selection from the dialog"><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -75,7 +69,7 @@ Use the side panel to view or deselect specific meetings without closing the dia
 
 Click **Extract list of action items** to aggregate all action items across the selected sessions in a single list.
 
-<figure><img src="../.gitbook/assets/meeting-insight_action-items-list-aggregated-across-meetings.png" alt="Action items list aggregated across meetings"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/meeting-insight_action-items-list-aggregated-across-meetings.png" alt="Action items list aggregated across meetings"><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -83,7 +77,7 @@ Click **Extract list of action items** to aggregate all action items across the 
 
 Ask natural-language questions in the input field to locate specific operational details — root causes, recurring barriers, owners — across the transcripts.
 
-<figure><img src="../.gitbook/assets/meeting-insight_natural-language-query-on-the-selected-meeti.png" alt="Natural-language query on the selected meetings"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/meeting-insight_natural-language-query-on-the-selected-meetings.png" alt="Natural-language query on the selected meetings"><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -91,7 +85,7 @@ Ask natural-language questions in the input field to locate specific operational
 
 Bookmark frequently used queries for faster reuse, and copy the generated summaries or action lists to external documents for reporting.
 
-<figure><img src="../.gitbook/assets/meeting-insight_bookmarking-a-query-and-exporting-the-result.png" alt="Bookmarking a query and exporting the results"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/meeting-insight_bookmarking-a-query-and-exporting-the-results.png" alt="Bookmarking a query and exporting the results"><figcaption></figcaption></figure>
 {% endstep %}
 {% endstepper %}
 
