@@ -28,7 +28,7 @@ The Actions feature in DISS is the structured way to record, assign, and track c
 
 From the SIM Board, open the **Create Action** form.
 
-<figure><img src="../.gitbook/assets/create-action_entry-point-on-the-sim-board.png" alt="Create Action entry point on the SIM Board"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/create-action_entry-point-on-the-sim-board.png" alt="Create Action entry point on the SIM Board"><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -36,7 +36,7 @@ From the SIM Board, open the **Create Action** form.
 
 Set the SIM context: **Category** (Safety, Quality, Delivery, Maintenance, Production, Engineering), **Module** (pre-filled with the Production Area from the originating board), **Line**. Source SIM level and Target SIM level are auto-selected from the originating SIM Board; verify them before saving as the Source SIM level becomes immutable once saved.
 
-<figure><img src="../.gitbook/assets/create-action_sim-context-bar-category.png" alt="Create Action SIM context bar with Category"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/create-action_sim-context-bar-category.png" alt="Create Action SIM context bar with Category"><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -44,7 +44,7 @@ Set the SIM context: **Category** (Safety, Quality, Delivery, Maintenance, Produ
 
 Write a **Title** that identifies the problem (max 500 characters).
 
-<figure><img src="../.gitbook/assets/create-action_title-field.png" alt="Create Action Title field"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/create-action_title-field.png" alt="Create Action Title field"><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -52,7 +52,7 @@ Write a **Title** that identifies the problem (max 500 characters).
 
 Leave **Status** as "New" unless your local SIM process requires a different starting status.
 
-<figure><img src="../.gitbook/assets/create-action_status-dropdown.png" alt="Create Action Status dropdown"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/create-action_status-dropdown.png" alt="Create Action Status dropdown"><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -60,7 +60,7 @@ Leave **Status** as "New" unless your local SIM process requires a different sta
 
 Write the **Description**. Use bold, italic, and lists for readability. Optionally click **AI Enhance** to improve clarity; the quality indicator gives real-time feedback as you type.
 
-<figure><img src="../.gitbook/assets/create-action_description-with-ai-enhance-and-quality-indica.png" alt="Description with AI Enhance and quality indicator"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/create-action_description-with-ai-enhance-and-quality-indicator.png" alt="Description with AI Enhance and quality indicator"><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -68,7 +68,7 @@ Write the **Description**. Use bold, italic, and lists for readability. Optional
 
 Pick a **Due Date** — by default today + 7 days; past dates are not allowed.
 
-<figure><img src="../.gitbook/assets/create-action_due-date-picker.png" alt="Create Action Due Date picker"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/create-action_due-date-picker.png" alt="Create Action Due Date picker"><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -76,7 +76,7 @@ Pick a **Due Date** — by default today + 7 days; past dates are not allowed.
 
 Set **Priority** (Trivial / Minor / Major / Critical / Blocker) and **Severity**.
 
-<figure><img src="../.gitbook/assets/create-action_priority-and-severity-dropdowns.png" alt="Priority and Severity dropdowns"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/create-action_priority-and-severity-dropdowns.png" alt="Priority and Severity dropdowns"><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -84,7 +84,7 @@ Set **Priority** (Trivial / Minor / Major / Critical / Blocker) and **Severity**
 
 Confirm the **Raiser** (pre-filled with the current user; change only when registering on behalf of another). Assign responsibility: at least one between **Team** and **Owner** must be set so the action has a clear accountable party on the SIM Board.
 
-<figure><img src="../.gitbook/assets/create-action_team-and-owner-assignment.png" alt="Team and Owner assignment"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/create-action_team-and-owner-assignment.png" alt="Team and Owner assignment"><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -92,7 +92,7 @@ Confirm the **Raiser** (pre-filled with the current user; change only when regis
 
 Click **Save Action**. The green button activates only when all required fields are populated. Once saved, the action is visible on the SIM Board.
 
-<figure><img src="../.gitbook/assets/create-action_save-action-button-active-and-action-visible-o.png" alt="Save Action button active and action visible on SIM Board"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/create-action_save-action-button-active-and-action-visible-on-sim-board.png" alt="Save Action button active and action visible on SIM Board"><figcaption></figcaption></figure>
 {% endstep %}
 {% endstepper %}
 
@@ -106,7 +106,7 @@ Edit Action is **auto-saving**: each field is committed individually when you le
 
 From the SIM Board, open the action you want to update.
 
-<figure><img src="../.gitbook/assets/edit-action_opening-an-action-from-the-sim-board.png" alt="Opening an action from the SIM Board"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/edit-action_opening-an-action-from-the-sim-board.png" alt="Opening an action from the SIM Board"><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -114,7 +114,7 @@ From the SIM Board, open the action you want to update.
 
 Update the editable fields in the Entry Panel: **Title, Status, Description** (with AI Enhance and quality indicator), **Due Date, Priority, Severity, Raiser, Team, Owner, Attachments**.
 
-<figure><img src="../.gitbook/assets/edit-action_entry-panel-with-all-editable-fields.png" alt="Entry Panel with all editable fields"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/edit-action_entry-panel-with-all-editable-fields.png" alt="Entry Panel with all editable fields"><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -122,7 +122,7 @@ Update the editable fields in the Entry Panel: **Title, Status, Description** (w
 
 Change the **Target SIM level** in the context bar if the action needs to be escalated (it is the only context-bar field that remains editable after creation).
 
-<figure><img src="../.gitbook/assets/edit-action_target-tier-dropdown-in-the-context-bar.png" alt="Target SIM level dropdown in the context bar"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/edit-action_target-tier-dropdown-in-the-context-bar.png" alt="Target SIM level dropdown in the context bar"><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -130,7 +130,9 @@ Change the **Target SIM level** in the context bar if the action needs to be esc
 
 In the **Solutions & Proposals** panel, type or paste the proposed solution, or click **AI Suggest** to auto-generate solution proposals scored by relevance. The proposals are extracted from the documents uploaded to the DeepFind Knowledge Source.
 
-<figure><img src="../.gitbook/assets/edit-action_solutions-&-proposals-with-ai-suggest.png" alt="Solutions & Proposals with AI Suggest"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/edit-action_solutions-proposals-with-ai-suggest.png" alt="Solutions & Proposals with AI Suggest"><figcaption></figcaption></figure>
+
+<figure><img src=".gitbook/assets/edit-action_solutions-proposals-from-deepfind-document.png" alt="Solutions & Proposals populated from the DeepFind Knowledge Source"><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -138,7 +140,7 @@ In the **Solutions & Proposals** panel, type or paste the proposed solution, or 
 
 Add notes to the **Activity Log** at the bottom of the panel; attach files via the paperclip icon if needed. The Activity Log is the full history of the action on the SIM Board.
 
-<figure><img src="../.gitbook/assets/edit-action_activity-log-with-note-input-and-paperclip.png" alt="Activity Log with note input and paperclip"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/edit-action_activity-log-with-note-input-and-paperclip.png" alt="Activity Log with note input and paperclip"><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -146,7 +148,7 @@ Add notes to the **Activity Log** at the bottom of the panel; attach files via t
 
 Set the **Status** to "Done" only when the action is genuinely complete: "Done" locks the entire record.
 
-<figure><img src="../.gitbook/assets/edit-action_status-set-to-done-(locked-record).png" alt="Status set to Done — locked record"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/edit-action_status-set-to-done-locked-record.png" alt="Status set to Done — locked record"><figcaption></figcaption></figure>
 {% endstep %}
 {% endstepper %}
 
