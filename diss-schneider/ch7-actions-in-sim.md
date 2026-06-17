@@ -2,11 +2,13 @@
 icon: list-check
 ---
 
-# Actions in SIM
+# 7. Actions in SIM
 
 ### Overview
 
 The Actions feature in DISS is the structured way to record, assign, and track corrective and improvement activities directly from the SIM Boards. Two complementary use cases are documented here: **Create Action** — to register a brand-new action with full SIM context — and **Edit Action** — to keep an existing action up to date while the team resolves it during the daily SIM routine.
+
+<figure><img src=".gitbook/assets/Action - Overview (1).png" alt=""><figcaption></figcaption></figure>
 
 ## When to use it
 
@@ -130,9 +132,9 @@ Change the **Target SIM level** in the context bar if the action needs to be esc
 
 In the **Solutions & Proposals** panel, type or paste the proposed solution, or click **AI Suggest** to auto-generate solution proposals scored by relevance. The proposals are extracted from the documents uploaded to the DeepFind Knowledge Source.
 
-<figure><img src=".gitbook/assets/edit-action_solutions-proposals-with-ai-suggest.png" alt="Solutions & Proposals with AI Suggest"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/edit-action_solutions-proposals-with-ai-suggest.png" alt="Solutions &#x26; Proposals with AI Suggest"><figcaption></figcaption></figure>
 
-<figure><img src=".gitbook/assets/edit-action_solutions-proposals-from-deepfind-document.png" alt="Solutions & Proposals populated from the DeepFind Knowledge Source"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/edit-action_solutions-proposals-from-deepfind-document.png" alt="Solutions &#x26; Proposals populated from the DeepFind Knowledge Source"><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}

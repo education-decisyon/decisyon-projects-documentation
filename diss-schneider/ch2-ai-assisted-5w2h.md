@@ -2,11 +2,13 @@
 icon: star-half-stroke
 ---
 
-# AI-Assisted 5W2H
+# 2. AI-Assisted 5W2H
 
 ### Overview
 
 AI-Assisted 5W2H is a quality assessment widget that evaluates how complete and clear a Kata problem statement is. It scores the text written by the user in the Current State and Target State fields against the 5W2H framework — Who, What, Why, When, Where, How, How Many — and returns an overall quality score and per-dimension feedback. The objective is to standardise quality checks across teams and plants, removing inconsistent and subjective reviews.
+
+<figure><img src=".gitbook/assets/5W2H Cover - Welcome page.png" alt=""><figcaption></figcaption></figure>
 
 ## When to use it
 
@@ -85,11 +87,11 @@ The total is the sum of the 7 per-dimension scores (maximum 14), expressed as a 
 
 For every dimension the widget displays four columns:
 
-| Column | Description |
-|--------|-------------|
-| Question | The 5W2H dimension being evaluated |
-| Evaluation | The per-dimension score and traffic-light colour |
-| Excerpt | The portion of your text that the AI used to evaluate the dimension |
+| Column     | Description                                                           |
+| ---------- | --------------------------------------------------------------------- |
+| Question   | The 5W2H dimension being evaluated                                    |
+| Evaluation | The per-dimension score and traffic-light colour                      |
+| Excerpt    | The portion of your text that the AI used to evaluate the dimension   |
 | Suggestion | What to add or clarify (shown when the dimension is missing or vague) |
 
 ## Tips & known limits

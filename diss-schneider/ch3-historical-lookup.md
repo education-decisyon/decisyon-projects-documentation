@@ -2,11 +2,13 @@
 icon: clock-rotate-left
 ---
 
-# Historical Lookup
+# 3. Historical Lookup
 
 ### Overview
 
 Historical Lookup is an AI feature that, starting from the Kata QRCI you are currently working on, searches the closed Katas of the same Plant and returns the most similar ones. For each historical Kata the user can review the AI explanation of the match and import — selectively — the actions that were used to solve the past problem, accelerating the response to recurring issues.
+
+<figure><img src=".gitbook/assets/Historical Lookup — AI Analysis accordion expanded.png" alt=""><figcaption></figcaption></figure>
 
 ## When to use it
 
@@ -110,12 +112,12 @@ The modal closes, a confirmation appears, and the current Kata's Actions table r
 
 ## Reading the result
 
-| Field | Description |
-|-------|-------------|
+| Field            | Description                                                                                                                                                                                 |
+| ---------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Similarity score | A percentage (0–100) indicating how closely the closed Kata matches the open one. Scores above 70 indicate strong thematic overlap; scores below 40 are weak matches shown for completeness |
-| Why it matches | A concise AI-generated explanation of the shared elements between the two Katas |
-| Key Differences | A brief summary of what distinguishes the historical case from the current one |
-| Reusable actions | The full list of actions from the historical Kata, ready for selective import |
+| Why it matches   | A concise AI-generated explanation of the shared elements between the two Katas                                                                                                             |
+| Key Differences  | A brief summary of what distinguishes the historical case from the current one                                                                                                              |
+| Reusable actions | The full list of actions from the historical Kata, ready for selective import                                                                                                               |
 
 ## Tips & known limits
 

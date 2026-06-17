@@ -2,11 +2,13 @@
 icon: chart-line
 ---
 
-# Meeting Insight
+# 6. Meeting Insight
 
 ### Overview
 
 Meeting Insight is an AI agent that works on top of the meetings already captured by MeetingSense. While MeetingSense focuses on a single recording, Meeting Insight analyses multiple meeting transcripts simultaneously to surface patterns, recurring issues, and aggregated action items across the whole archive. It transforms a stream of individual SIM minutes into operational intelligence at the plant or area level.
+
+<figure><img src=".gitbook/assets/Meeting Insight — action items list aggregated across meetings.png" alt=""><figcaption></figcaption></figure>
 
 ## When to use it
 
@@ -91,11 +93,11 @@ Bookmark frequently used queries for faster reuse, and copy the generated summar
 
 ## Reading the result
 
-| Output | Description |
-|--------|-------------|
-| Action items list | A consolidated, deduplicated list of all action items surfaced across the selected meeting sessions, showing description, inferred owner, and source meeting |
-| Natural-language response | A synthesised AI answer drawing on the full transcribed content of the selected meetings, with references to the source meeting and session |
-| Bookmarked queries | Frequently used queries saved and reusable from the side panel, accelerating recurring analyses such as weekly trend checks or management reviews |
+| Output                    | Description                                                                                                                                                  |
+| ------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Action items list         | A consolidated, deduplicated list of all action items surfaced across the selected meeting sessions, showing description, inferred owner, and source meeting |
+| Natural-language response | A synthesised AI answer drawing on the full transcribed content of the selected meetings, with references to the source meeting and session                  |
+| Bookmarked queries        | Frequently used queries saved and reusable from the side panel, accelerating recurring analyses such as weekly trend checks or management reviews            |
 
 {% hint style="info" %}
 The results are advisory. The meeting leader remains responsible for converting recurring patterns into concrete countermeasures via the Actions feature.
