@@ -1,21 +1,16 @@
+---
+icon: house
+---
+
 # DISS New AI Features — User Guide
 
 **Document Code:** SEFR.DISS.UG.001 | **Version:** 01 | **Platform:** Schneider Electric GSC
 
-This User Guide describes the AI-powered features recently added to the DISS platform for Schneider Electric GSC.
+This User Guide describes the AI capabilities recently added to the DISS platform for Schneider Electric GSC. It is written for shop-floor users — operators, team leaders, coaches — and for SMEs who configure DISS daily.
 
----
+## New AI features
 
-## Six new AI features
-
-| # | Feature | Description |
-|---|---------|-------------|
-| 2 | AI-Assisted 5W2H | Evaluates and scores Kata problem statement quality across 7 dimensions |
-| 3 | Historical Lookup & Selective Action Copy | Finds similar closed Katas and copies their actions to the current one |
-| 4 | DeepFind | AI chatbot that queries plant documentation from a configured Knowledge Source |
-| 5 | MeetingSense | Records SIM meetings, transcribes audio, and proposes actions automatically |
-| 6 | Meeting Insight | Analyses patterns and answers natural-language questions across meeting archives |
-| 7 | Actions in SIM | Creates, assigns, and tracks corrective actions directly on the SIM Board |
+<table data-view="cards"><thead><tr><th align="center"></th><th data-hidden data-card-cover data-type="image">Cover image</th></tr></thead><tbody><tr><td align="center"><p><a href="ch2-ai-assisted-5w2h.md"><strong>AI-Assisted 5W2H</strong></a></p><p>Evaluates and scores the quality of a Kata problem statement across 7 dimensions of the 5W2H framework, returning a numeric score and per-dimension improvement suggestions.</p></td><td data-object-fit="contain"><a href=".gitbook/assets/5w2h_detailed-popup-with-circular-score-and-focus-on-area.png">5w2h_detailed-popup-with-circular-score-and-focus-on-area.png</a></td></tr><tr><td align="center"><p><a href="ch3-historical-lookup.md"><strong>Historical Lookup</strong></a></p><p>Searches closed Katas of the same plant for similar problems and lets you import — selectively — the actions that solved them, accelerating the response to recurring issues.</p></td><td data-object-fit="contain"><a href=".gitbook/assets/historical-lookup_list-of-matches-with-similarity-scores.png">historical-lookup_list-of-matches-with-similarity-scores.png</a></td></tr><tr><td align="center"><p><a href="ch4-deepfind.md"><strong>DeepFind</strong></a></p><p>AI chatbot that answers natural-language questions by scanning a configured Knowledge Source of plant manuals, procedures, FAQs, and technical documents.</p></td><td data-object-fit="contain"><a href=".gitbook/assets/deepfind_synthesised-answer-and-follow-up-turn.png">deepfind_synthesised-answer-and-follow-up-turn.png</a></td></tr><tr><td align="center"><p><a href="ch5-meetingsense.md"><strong>MeetingSense</strong></a></p><p>Records and transcribes SIM 2 meetings, generating an executive summary, a list of identified issues, and AI-suggested actions ready to be assigned in the SIM action plan.</p></td><td data-object-fit="contain"><a href=".gitbook/assets/recording-widget-in-active-state-during-the-meeting-with-session-duration-and-audio-status-indicator.png">recording-widget-in-active-state-during-the-meeting-with-session-duration-and-audio-status-indicator.png</a></td></tr><tr><td align="center"><p><a href="ch6-meeting-insight.md"><strong>Meeting Insight</strong></a></p><p>Analyses multiple meeting transcripts simultaneously to surface recurring patterns, aggregate action items, and answer natural-language questions across the whole meeting archive.</p></td><td data-object-fit="contain"><a href=".gitbook/assets/meeting-insight_action-items-list-aggregated-across-meetings.png">meeting-insight_action-items-list-aggregated-across-meetings.png</a></td></tr><tr><td align="center"><p><a href="ch7-actions-in-sim.md"><strong>Actions in SIM</strong></a></p><p>Creates, assigns, and tracks corrective and improvement activities directly from the SIM Boards, with AI-assisted description quality and automatic solution proposals.</p></td><td data-object-fit="contain"><a href=".gitbook/assets/create-action_entry-point-on-the-sim-board.png">create-action_entry-point-on-the-sim-board.png</a></td></tr></tbody></table>
 
 ---
 
