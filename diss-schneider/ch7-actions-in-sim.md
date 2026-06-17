@@ -10,6 +10,10 @@ The Actions feature in DISS is the structured way to record, assign, and track c
 
 <figure><img src=".gitbook/assets/Action - Overview (1).png" alt=""><figcaption></figcaption></figure>
 
+
+
+<figure><img src=".gitbook/assets/Action - Overview.png" alt="Actions in SIM — overview"><figcaption></figcaption></figure>
+
 ## When to use it
 
 * Open a **Create Action** during a SIM meeting whenever a problem or opportunity is identified on the line: a Safety / Quality / Delivery / Maintenance / Production / Engineering issue with a clear owner and due date
