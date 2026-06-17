@@ -36,6 +36,8 @@ Navigate to **Digitized Idea & SIM System → Kata QRCI**. The dashboard lists a
 ### Fill in the Kata header
 
 In the Add form, set the context fields: **Production Area** and **Line** (from the plant hierarchy), **Title** (a concise problem statement), **Leader** and **Coach** (both required), **Source** (the origin category of the problem — e.g. Downtime, Efficiency, Maintenance issues, Check Do check non-conformance, High lead time, Layered Process audit non-conformance), and **KPI** (e.g. OEE). Creation Date is pre-filled with today.
+
+<figure><img src=".gitbook/assets/Kata QRCI — Add form with header fields filled in.png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -45,13 +47,19 @@ In the **Current Status** and **Target (5W2H)** fields, describe the current sit
 
 <figure><img src=".gitbook/assets/5w2h_kata-form-with-current-state-target-state-fields.png" alt="Kata form with Current State and Target State fields"><figcaption></figcaption></figure>
 
-As you type, the inline badge in the widget shows the current quality score and the character count. Click the inline badge to open the detailed popup. Review the circular score, the qualitative label, and the **Focus on:** priority area suggested by the AI. Add missing information in your text; the score updates as you save the field.
+As you type, the inline badge in the widget shows the current quality score and the character count.&#x20;
 
-<figure><img src=".gitbook/assets/5w2h_inline-quality-badge-updating-live-as-the-user-types.png" alt="Inline quality badge updating live as the user types"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/5w2h_inline-quality-badge-updating-live-as-the-user-types.png" alt="Inline quality badge updating live as the user types" width="473"><figcaption></figcaption></figure>
+
+Click the inline badge to open the detailed popup.&#x20;
 
 <figure><img src=".gitbook/assets/5w2h_clicking-the-badge-opens-the-detailed-popup.png" alt="Clicking the badge opens the detailed popup"><figcaption></figcaption></figure>
 
+Review the circular score, the qualitative label, and the **Focus on:** priority area suggested by the AI.&#x20;
+
 <figure><img src=".gitbook/assets/5w2h_detailed-popup-with-circular-score-and-focus-on-area.png" alt="Detailed popup with circular score and Focus on area"><figcaption></figcaption></figure>
+
+Add missing information in your text; the score updates as you save the field.
 
 <figure><img src=".gitbook/assets/5w2h_score-recalculated-after-adding-missing-information.png" alt="Score recalculated after adding missing information"><figcaption></figcaption></figure>
 

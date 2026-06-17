@@ -8,7 +8,7 @@ icon: clock-rotate-left
 
 Historical Lookup is an AI feature that, starting from the Kata QRCI you are currently working on, searches the closed Katas of the same Plant and returns the most similar ones. For each historical Kata the user can review the AI explanation of the match and import — selectively — the actions that were used to solve the past problem, accelerating the response to recurring issues.
 
-<figure><img src=".gitbook/assets/Historical Lookup — AI Analysis accordion expanded.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/historical-lookup_ai-analysis-accordion-expanded.png" alt=""><figcaption></figcaption></figure>
 
 ## When to use it
 

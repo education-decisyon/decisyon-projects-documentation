@@ -8,7 +8,7 @@ icon: chart-line
 
 Meeting Insight is an AI agent that works on top of the meetings already captured by MeetingSense. While MeetingSense focuses on a single recording, Meeting Insight analyses multiple meeting transcripts simultaneously to surface patterns, recurring issues, and aggregated action items across the whole archive. It transforms a stream of individual SIM minutes into operational intelligence at the plant or area level.
 
-<figure><img src=".gitbook/assets/Meeting Insight — action items list aggregated across meetings.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/meeting-insight_action-items-list-aggregated-across-meetings.png" alt=""><figcaption></figcaption></figure>
 
 ## When to use it
 
