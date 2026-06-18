@@ -2,7 +2,7 @@
 icon: list-check
 ---
 
-# 7. Actions in SIM
+# 7. SIM中的行动
 
 ### 概述
 
