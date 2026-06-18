@@ -4,7 +4,7 @@ icon: chart-line
 
 # 6. Meeting Insight
 
-### Overview
+### Descripción general
 
 Meeting Insight es un agente de IA que trabaja sobre las reuniones ya capturadas por MeetingSense. Mientras MeetingSense se centra en una única grabación, Meeting Insight analiza múltiples transcripciones de reuniones simultáneamente para identificar patrones, problemas recurrentes y acciones agregadas en todo el archivo. Transforma un flujo de actas SIM individuales en inteligencia operativa a nivel de planta o área.
 
