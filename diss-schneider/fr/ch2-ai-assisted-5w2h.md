@@ -4,7 +4,7 @@ icon: star-half-stroke
 
 # 2. AI-Assisted 5W2H
 
-### Overview
+### Aperçu général
 
 **AI-Assisted 5W2H** est un widget d'évaluation de la qualité qui analyse la complétude et la clarté de l'énoncé d'un problème Kata. Il évalue le texte saisi par l'utilisateur dans les champs État Actuel et État Cible selon le cadre 5W2H — **Qui, Quoi, Pourquoi, Quand, Où, Comment, Combien** — et renvoie un score global de qualité ainsi qu'un retour par dimension. L'objectif est de standardiser les contrôles de qualité entre équipes et sites, en éliminant les révisions incohérentes et subjectives.
 
