@@ -2,11 +2,11 @@
 icon: star-half-stroke
 ---
 
-# 2. AI-Assisted 5W2H
+# 2. 5W2H Assisté par IA
 
 ### Aperçu général
 
-**AI-Assisted 5W2H** est un widget d'évaluation de la qualité qui analyse la complétude et la clarté de l'énoncé d'un problème Kata. Il évalue le texte saisi par l'utilisateur dans les champs État Actuel et État Cible selon le cadre 5W2H — **Qui, Quoi, Pourquoi, Quand, Où, Comment, Combien** — et renvoie un score global de qualité ainsi qu'un retour par dimension. L'objectif est de standardiser les contrôles de qualité entre équipes et sites, en éliminant les révisions incohérentes et subjectives.
+**5W2H Assisté par IA** est un widget d'évaluation de la qualité qui analyse la complétude et la clarté de l'énoncé d'un problème Kata. Il évalue le texte saisi par l'utilisateur dans les champs État Actuel et État Cible selon le cadre 5W2H — **Qui, Quoi, Pourquoi, Quand, Où, Comment, Combien** — et renvoie un score global de qualité ainsi qu'un retour par dimension. L'objectif est de standardiser les contrôles de qualité entre équipes et sites, en éliminant les révisions incohérentes et subjectives.
 
 <figure><img src=".gitbook/assets/5W2H Cover - Welcome page.png" alt=""><figcaption></figcaption></figure>
 
@@ -77,7 +77,7 @@ Dans le formulaire d'ajout, configurer les champs de contexte :
 {% step %}
 ### Ouvrir le Kata pour activer le widget 5W2H
 
-* Le nouveau Kata apparaît dans la liste **Kata QRCI**. Ouvrir le Kata : le widget **AI-Assisted 5W2H** est maintenant actif dans les champs État Actuel et État Cible et commence à évaluer le texte saisi.
+* Le nouveau Kata apparaît dans la liste **Kata QRCI**. Ouvrir le Kata : le widget **5W2H Assisté par IA** est maintenant actif dans les champs État Actuel et État Cible et commence à évaluer le texte saisi.
 
 <figure><img src=".gitbook/assets/kata-qrci_newly-created-kata-visible-in-the-list-ready-to-open.png" alt="Nouveau Kata visible dans la liste, prêt à être ouvert"><figcaption></figcaption></figure>
 {% endstep %}
@@ -116,5 +116,5 @@ Pour chaque dimension, le widget affiche quatre colonnes :
 * Le widget récompense la précision : dates, noms, lignes, KPIs et quantités mesurables font rapidement monter le score
 * La traduction est une fonction de présentation : le score est calculé sur le texte original
 * Deux énoncés de problèmes avec le même score global peuvent avoir des profils par dimension très différents — utiliser le tableau récapitulatif, pas seulement le pourcentage global, pour décider quoi améliorer
-* AI-Assisted 5W2H est un outil d'orientation : un score durablement faible indique que l'équipe a besoin de coaching sur la formulation des problèmes
+* 5W2H Assisté par IA est un outil d'orientation : un score durablement faible indique que l'équipe a besoin de coaching sur la formulation des problèmes
 {% endhint %}
