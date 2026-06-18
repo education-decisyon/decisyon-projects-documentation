@@ -2,7 +2,7 @@
 icon: star-half-stroke
 ---
 
-# 2. AI-Assisted 5W2H
+# 2. AI辅助5W2H
 
 ### 概述
 
