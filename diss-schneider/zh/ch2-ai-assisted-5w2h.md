@@ -6,7 +6,7 @@ icon: star-half-stroke
 
 ### 概述
 
-**AI-Assisted 5W2H** 是一个质量评估小部件，用于分析 Kata 问题陈述的完整性和清晰度。它根据 5W2H 框架——**谁、什么、为什么、何时、何地、如何、多少**——对用户在当前状态和目标状态字段中输入的文本进行评分，并返回总体质量评分和每个维度的反馈。目标是在团队和工厂之间标准化质量检查，消除不一致和主观的审查。
+**AI辅助5W2H** 是一个质量评估小部件，用于分析 Kata 问题陈述的完整性和清晰度。它根据 5W2H 框架——**谁、什么、为什么、何时、何地、如何、多少**——对用户在当前状态和目标状态字段中输入的文本进行评分，并返回总体质量评分和每个维度的反馈。目标是在团队和工厂之间标准化质量检查，消除不一致和主观的审查。
 
 <figure><img src=".gitbook/assets/5W2H Cover - Welcome page.png" alt=""><figcaption></figcaption></figure>
 
@@ -77,7 +77,7 @@ icon: star-half-stroke
 {% step %}
 ### 打开 Kata 以激活 5W2H 小部件
 
-* 新 Kata 出现在 **Kata QRCI** 列表中。打开它：**AI-Assisted 5W2H** 小部件现在在当前状态和目标状态字段中处于活动状态，并开始评估输入的文本。
+* 新 Kata 出现在 **Kata QRCI** 列表中。打开它：**AI辅助5W2H** 小部件现在在当前状态和目标状态字段中处于活动状态，并开始评估输入的文本。
 
 <figure><img src=".gitbook/assets/kata-qrci_newly-created-kata-visible-in-the-list-ready-to-open.png" alt="新 Kata 在列表中可见，准备打开"><figcaption></figcaption></figure>
 {% endstep %}
@@ -116,5 +116,5 @@ icon: star-half-stroke
 * 小部件奖励具体性：日期、名称、生产线、KPI 和可测量数量能快速提升评分
 * 翻译是一种展示功能：评分基于原始文本计算
 * 两个具有相同总评分的问题陈述可能具有非常不同的维度分布——使用摘要表而非仅使用总百分比来决定改进方向
-* AI-Assisted 5W2H 是一个指导工具：持续低分是团队需要问题表述方面辅导的信号
+* AI辅助5W2H 是一个指导工具：持续低分是团队需要问题表述方面辅导的信号
 {% endhint %}
