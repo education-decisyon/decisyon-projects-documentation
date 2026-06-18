@@ -14,8 +14,8 @@ This User Guide describes the **AI capabilities** recently added to the **DISS p
 | - | --------------------------------------------- | ---------------------------------------------------------------------------------------- |
 | 2 | **AI-Assisted 5W2H**   | Evaluates and scores Kata problem statement quality across 7 dimensions                  |
 | 3 | **Historical Lookup** | Finds similar closed Katas and selectively copies their actions to the current one       |
-| 4 | **DeepFind**                   | AI chatbot that answers natural-language questions against a configured Knowledge Source |
-| 5 | **MeetingSense**           | Records SIM meetings, transcribes audio, and proposes actions automatically              |
+| 4 | **Deep Find**                   | AI chatbot that answers natural-language questions against a configured Knowledge Source |
+| 5 | **Meeting Sense**           | Records SIM meetings, transcribes audio, and proposes actions automatically              |
 | 6 | **Meeting Insight**     | Analyses patterns and answers questions across multiple meeting transcripts              |
 | 7 | **Actions in SIM**       | Creates, assigns, and tracks corrective actions directly on the SIM Board                |
 
