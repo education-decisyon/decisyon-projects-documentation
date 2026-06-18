@@ -8,7 +8,7 @@ coverY: -95.02728822328444
 
 **Document Code:** SEFR.DISS.UG.001 | **Version:** 01 | **Platform:** Schneider Electric GSC
 
-<figure><img src=".gitbook/assets/Logo Decisyon (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/Logo Decisyon (1).png" alt="" width="98"><figcaption></figcaption></figure>
 
 This User Guide describes the AI capabilities recently added to the DISS platform for Schneider Electric GSC. It is written for shop-floor users — operators, team leaders, coaches — and for SMEs who configure DISS daily.
 
