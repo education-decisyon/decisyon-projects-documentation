@@ -2,11 +2,11 @@
 icon: magnifying-glass
 ---
 
-# 4. DeepFind
+# 4. Deep Find
 
 ### Overview
 
-**DeepFind** is an AI chatbot embedded in DISS that lets users query a configured Knowledge Source — a repository of plant manuals, procedures, FAQs, policies, reports — using natural language. DeepFind scans the documents that have been uploaded and synthesises an answer grounded on their content. Multiple documents can be attached to the same conversation to provide a richer context for the AI.
+**Deep Find** is an AI chatbot embedded in DISS that lets users query a configured Knowledge Source — a repository of plant manuals, procedures, FAQs, policies, reports — using natural language. Deep Find scans the documents that have been uploaded and synthesises an answer grounded on their content. Multiple documents can be attached to the same conversation to provide a richer context for the AI.
 
 <figure><img src=".gitbook/assets/DeepFind-Cover Welcome page.png" alt=""><figcaption></figcaption></figure>
 
@@ -21,10 +21,10 @@ icon: magnifying-glass
 
 * A Knowledge Source must be configured for your plant in DISS.
 * The relevant documents (manuals, procedures, FAQs, error-code references) must have been uploaded to the Knowledge Source.
-* DeepFind must be explicitly enabled on that Knowledge Source.
+* Deep Find must be explicitly enabled on that Knowledge Source.
 
 {% hint style="info" %}
-If DeepFind is not visible in your DISS toolbar, contact your DISS administrator to verify that a Knowledge Source with DeepFind enabled has been configured for your plant.
+If Deep Find is not visible in your DISS toolbar, contact your DISS administrator to verify that a Knowledge Source with Deep Find enabled has been configured for your plant.
 {% endhint %}
 
 ## How to use it
@@ -33,7 +33,7 @@ If DeepFind is not visible in your DISS toolbar, contact your DISS administrator
 {% step %}
 ### Configure the Knowledge Source
 
-* This step is performed by a user with the **Knowledge Source administrator** scope and must be completed before end users can query DeepFind.
+* This step is performed by a user with the **Knowledge Source administrator** scope and must be completed before end users can query Deep Find.
 
 <figure><img src=".gitbook/assets/diss_user-profile-details-with-knowledge-source-administrator-scope-highlighted.png" alt="User profile with Knowledge Source administrator scope highlighted"><figcaption></figcaption></figure>
 
@@ -49,15 +49,15 @@ If DeepFind is not visible in your DISS toolbar, contact your DISS administrator
 
 <figure><img src=".gitbook/assets/knowledge-sources_permissions-tab-with-organisation-and-group-configured.png" alt="Permissions tab with organisation and group configured"><figcaption></figcaption></figure>
 
-* In the **AI Agents** tab, enable the **DeepFind AI Assistant** toggle to connect this Knowledge Source to DeepFind.
+* In the **AI Agents** tab, enable the **Deep Find AI Assistant** toggle to connect this Knowledge Source to Deep Find.
 
 <figure><img src=".gitbook/assets/knowledge-sources_ai-agents-tab-with-deepfind-ai-assistant-enabled.png" alt="AI Agents tab with DeepFind AI Assistant enabled"><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
-### Open DeepFind
+### Open Deep Find
 
-* Locate the **DeepFind Assistant** icon in the DISS toolbar and click it to open the chat interface.
+* Locate the **Deep Find Assistant** icon in the DISS toolbar and click it to open the chat interface.
 
 <figure><img src=".gitbook/assets/deepfind_assistant-icon-in-the-toolbar.png" alt="DeepFind Assistant icon in the toolbar"><figcaption></figcaption></figure>
 
@@ -75,7 +75,7 @@ If DeepFind is not visible in your DISS toolbar, contact your DISS administrator
 {% step %}
 ### Read the answer and follow up
 
-* Read the synthesised answer. DeepFind cites the source document and section at the bottom of each response, so you can verify where the information comes from. If needed, ask a follow-up question to refine or expand the answer.
+* Read the synthesised answer. Deep Find cites the source document and section at the bottom of each response, so you can verify where the information comes from. If needed, ask a follow-up question to refine or expand the answer.
 
 <figure><img src=".gitbook/assets/deepfind_synthesised-answer-and-follow-up-turn.png" alt="Synthesised answer and follow-up turn"><figcaption></figcaption></figure>
 {% endstep %}
@@ -83,15 +83,15 @@ If DeepFind is not visible in your DISS toolbar, contact your DISS administrator
 
 ## Reading the result
 
-DeepFind synthesises one answer based on the most relevant passages found in the configured Knowledge Source and in any documents attached to the conversation. The answer respects the access policies of the underlying documents: a user only sees information from documents they are allowed to access.
+Deep Find synthesises one answer based on the most relevant passages found in the configured Knowledge Source and in any documents attached to the conversation. The answer respects the access policies of the underlying documents: a user only sees information from documents they are allowed to access.
 
-When DeepFind cannot answer based on the available material, it returns: _"I'm sorry, but I can't help with that because it's outside the scope of my knowledge."_ This means that no relevant document was found, not that the topic does not exist.
+When Deep Find cannot answer based on the available material, it returns: _"I'm sorry, but I can't help with that because it's outside the scope of my knowledge."_ This means that no relevant document was found, not that the topic does not exist.
 
 ## Tips & known limits
 
 {% hint style="info" %}
 * Ask one question at a time — compound questions tend to be answered partially.
 * If the answer is incomplete, rephrase with different keywords or be more specific about the equipment, process, or error code.
-* If the question is in scope but no answer is found, ask your DISS administrator to verify that the relevant document is uploaded and DeepFind is enabled on that Knowledge Source.
-* DeepFind does not invent content: it only references material present in the configured Knowledge Source or in the attached documents.
+* If the question is in scope but no answer is found, ask your DISS administrator to verify that the relevant document is uploaded and Deep Find is enabled on that Knowledge Source.
+* Deep Find does not invent content: it only references material present in the configured Knowledge Source or in the attached documents.
 {% endhint %}
