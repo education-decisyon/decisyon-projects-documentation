@@ -143,7 +143,7 @@ Editar acción tiene **guardado automático**: cada campo se confirma individual
 
 <figure><img src=".gitbook/assets/edit-action_solutions-proposals-with-ai-suggest.png" alt="Soluciones y propuestas con AI Suggest"><figcaption></figcaption></figure>
 
-* Las propuestas se extraen de los documentos cargados en la **Fuente de Conocimiento DeepFind**.
+* Las propuestas se extraen de los documentos cargados en la **Fuente de Conocimiento Deep Find**.
 
 <figure><img src=".gitbook/assets/edit-action_solutions-proposals-from-deepfind-document.png" alt="Soluciones y propuestas extraídas de la Fuente de Conocimiento DeepFind"><figcaption></figcaption></figure>
 {% endstep %}
