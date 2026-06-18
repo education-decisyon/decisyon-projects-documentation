@@ -12,12 +12,12 @@ icon: book-open
 
 | # | 功能                                          | 描述                                                                |
 | - | --------------------------------------------- | ------------------------------------------------------------------- |
-| 2 | [AI-Assisted 5W2H](ch2-ai-assisted-5w2h.md)   | 根据 7 个维度评估和评分 Kata 问题陈述质量                          |
-| 3 | [Historical Lookup](ch3-historical-lookup.md) | 查找类似的已关闭 Kata 并有选择性地将其行动导入当前 Kata            |
-| 4 | [DeepFind](ch4-deepfind.md)                   | AI 聊天机器人，以自然语言回答关于知识源的问题                      |
-| 5 | [MeetingSense](ch5-meetingsense.md)           | 录制 SIM 会议、转录音频并自动建议行动                              |
-| 6 | [Meeting Insight](ch6-meeting-insight.md)     | 分析多个会议记录的趋势并回答自然语言问题                           |
-| 7 | [Actions in SIM](ch7-actions-in-sim.md)       | 直接在 SIM Board 中创建、分配和跟踪纠正措施                        |
+| 2 | **AI-Assisted 5W2H**   | 根据 7 个维度评估和评分 Kata 问题陈述质量                          |
+| 3 | **Historical Lookup** | 查找类似的已关闭 Kata 并有选择性地将其行动导入当前 Kata            |
+| 4 | **DeepFind**                   | AI 聊天机器人，以自然语言回答关于知识源的问题                      |
+| 5 | **MeetingSense**           | 录制 SIM 会议、转录音频并自动建议行动                              |
+| 6 | **Meeting Insight**     | 分析多个会议记录的趋势并回答自然语言问题                           |
+| 7 | **Actions in SIM**       | 直接在 SIM Board 中创建、分配和跟踪纠正措施                        |
 
 ### 指南结构
 
