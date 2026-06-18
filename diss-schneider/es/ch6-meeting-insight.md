@@ -2,24 +2,24 @@
 icon: chart-line
 ---
 
-# 6. Meeting Insight
+# 6. Perspectivas de Reunión
 
 ### Descripción general
 
-Meeting Insight es un agente de IA que trabaja sobre las reuniones ya capturadas por Meeting Sense. Mientras Meeting Sense se centra en una única grabación, Meeting Insight analiza múltiples transcripciones de reuniones simultáneamente para identificar patrones, problemas recurrentes y acciones agregadas en todo el archivo. Transforma un flujo de actas SIM individuales en inteligencia operativa a nivel de planta o área.
+Perspectivas de Reunión es un agente de IA que trabaja sobre las reuniones ya capturadas por Análisis de Reunión. Mientras Análisis de Reunión se centra en una única grabación, Perspectivas de Reunión analiza múltiples transcripciones de reuniones simultáneamente para identificar patrones, problemas recurrentes y acciones agregadas en todo el archivo. Transforma un flujo de actas SIM individuales en inteligencia operativa a nivel de planta o área.
 
 <figure><img src=".gitbook/assets/meeting-insight_action-items-list-aggregated-across-meetings.png" alt=""><figcaption></figcaption></figure>
 
 ## Cuándo usarla
 
-* Para responder "¿Qué problemas siguen recurriendo?" — Meeting Insight identifica temas recurrentes en las reuniones SIM durante un período elegido.
+* Para responder "¿Qué problemas siguen recurriendo?" — Perspectivas de Reunión identifica temas recurrentes en las reuniones SIM durante un período elegido.
 * Para producir una lista consolidada de acciones de muchas reuniones (por ejemplo, todas las reuniones SIM 1 del mes pasado) sin abrirlas una a una.
 * Para extraer tendencias y patrones en diferentes fechas de producción y áreas de producción, apoyando las revisiones de gestión y la dirección de mejora continua.
 * Para investigar un tema en el archivo de reuniones usando preguntas en lenguaje natural en cualquier idioma compatible.
 
 ## Requisitos previos
 
-* Debe existir al menos una transcripción de reunión producida por Meeting Sense en el entorno DISS.
+* Debe existir al menos una transcripción de reunión producida por Análisis de Reunión en el entorno DISS.
 * El usuario debe tener acceso al archivo Overview Meeting.
 * El usuario debe tener acceso de lectura a las reuniones incluidas en el análisis.
 
@@ -51,7 +51,7 @@ Meeting Insight es un agente de IA que trabaja sobre las reuniones ya capturadas
 {% endstep %}
 
 {% step %}
-### Lanzar Meeting Insight
+### Lanzar Perspectivas de Reunión
 
 * Hacer clic en **Resumir notas** para lanzar el Agente de Insight en las reuniones seleccionadas. El agente abre una ventana de diálogo donde se puede interactuar con el conjunto de datos combinado de todas las transcripciones seleccionadas.
 
@@ -106,8 +106,8 @@ Los resultados son orientativos. El líder de la reunión sigue siendo responsab
 ## Consejos y límites conocidos
 
 {% hint style="info" %}
-* La calidad de los insights escala con la calidad de las actas de Meeting Sense subyacentes: fomentar grabaciones limpias y la mención explícita de responsables y fechas durante las reuniones.
+* La calidad de los insights escala con la calidad de las actas de Análisis de Reunión subyacentes: fomentar grabaciones limpias y la mención explícita de responsables y fechas durante las reuniones.
 * Usar filtros antes de lanzar el agente — analizar un conjunto de datos enfocado (por ejemplo, un nivel SIM y un mes) produce insights más precisos que analizar todo el archivo.
-* La participación de IA en tiempo real durante la reunión SIM en sí no forma parte de esta versión: Meeting Insight hoy opera sobre actas ya grabadas.
+* La participación de IA en tiempo real durante la reunión SIM en sí no forma parte de esta versión: Perspectivas de Reunión hoy opera sobre actas ya grabadas.
 * Los insights son orientativos: el líder es responsable de traducir los patrones recurrentes en contramedidas concretas mediante Acciones o Katas.
 {% endhint %}
