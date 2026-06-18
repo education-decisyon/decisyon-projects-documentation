@@ -6,7 +6,7 @@ icon: chart-line
 
 ### Overview
 
-Meeting Insight is an AI agent that works on top of the meetings already captured by MeetingSense. While MeetingSense focuses on a single recording, Meeting Insight analyses multiple meeting transcripts simultaneously to surface patterns, recurring issues, and aggregated action items across the whole archive. It transforms a stream of individual SIM minutes into operational intelligence at the plant or area level.
+Meeting Insight is an AI agent that works on top of the meetings already captured by Meeting Sense. While Meeting Sense focuses on a single recording, Meeting Insight analyses multiple meeting transcripts simultaneously to surface patterns, recurring issues, and aggregated action items across the whole archive. It transforms a stream of individual SIM minutes into operational intelligence at the plant or area level.
 
 <figure><img src=".gitbook/assets/meeting-insight_action-items-list-aggregated-across-meetings.png" alt=""><figcaption></figcaption></figure>
 
@@ -19,7 +19,7 @@ Meeting Insight is an AI agent that works on top of the meetings already capture
 
 ## Prerequisites
 
-* At least one meeting transcription produced by MeetingSense must exist in the DISS environment.
+* At least one meeting transcription produced by Meeting Sense must exist in the DISS environment.
 * The user must have access to the Overview Meeting archive.
 * The user must have read access to the meetings included in the analysis.
 
@@ -106,7 +106,7 @@ The results are advisory. The meeting leader remains responsible for converting 
 ## Tips & known limits
 
 {% hint style="info" %}
-* Quality of insights scales with the quality of the underlying MeetingSense minutes: encourage clean recordings and explicit naming of owners and dates during meetings.
+* Quality of insights scales with the quality of the underlying Meeting Sense minutes: encourage clean recordings and explicit naming of owners and dates during meetings.
 * Use filters before launching the agent — analysing a focused dataset (for example one SIM level and one month) yields sharper insights than scanning the entire archive.
 * Real-time AI participation during the SIM meeting itself is not part of this release: Meeting Insight today operates on already-recorded minutes.
 * Insights are advisory: the leader is responsible for translating recurring patterns into concrete countermeasures via Actions or Katas.
