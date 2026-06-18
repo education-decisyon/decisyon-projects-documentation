@@ -4,7 +4,7 @@ icon: magnifying-glass
 
 # 4. DeepFind
 
-### Overview
+### Aperçu général
 
 **DeepFind** est un chatbot IA intégré dans DISS qui permet aux utilisateurs d'interroger une Source de Connaissance configurée — un référentiel de manuels d'usine, procédures, FAQs, politiques, rapports — en langage naturel. DeepFind analyse les documents qui ont été chargés et synthétise une réponse basée sur leur contenu. Plusieurs documents peuvent être joints à la même conversation pour fournir un contexte plus riche à l'IA.
 
