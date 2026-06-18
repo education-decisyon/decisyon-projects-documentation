@@ -12,12 +12,12 @@ Esta Guía del Usuario describe las **capacidades de IA** recientemente añadida
 
 | # | Función                                       | Descripción                                                                              |
 | - | --------------------------------------------- | ---------------------------------------------------------------------------------------- |
-| 2 | **AI-Assisted 5W2H**   | Evalúa y puntúa la calidad del enunciado de problema Kata en 7 dimensiones              |
-| 3 | **Historical Lookup** | Encuentra Katas cerrados similares e importa selectivamente sus acciones al actual       |
-| 4 | **Deep Find**                   | Chatbot de IA que responde preguntas en lenguaje natural sobre una Fuente de Conocimiento |
-| 5 | **Meeting Sense**           | Graba reuniones SIM, transcribe el audio y propone acciones automáticamente              |
-| 6 | **Meeting Insight**     | Analiza patrones y responde preguntas sobre múltiples transcripciones de reuniones       |
-| 7 | **Actions in SIM**       | Crea, asigna y hace seguimiento de acciones correctivas directamente en el SIM Board     |
+| 2 | **5W2H Asistido por IA**   | Evalúa y puntúa la calidad del enunciado de problema Kata en 7 dimensiones              |
+| 3 | **Búsqueda Histórica** | Encuentra Katas cerrados similares e importa selectivamente sus acciones al actual       |
+| 4 | **Búsqueda Profunda**                   | Chatbot de IA que responde preguntas en lenguaje natural sobre una Fuente de Conocimiento |
+| 5 | **Análisis de Reunión**           | Graba reuniones SIM, transcribe el audio y propone acciones automáticamente              |
+| 6 | **Perspectivas de Reunión**     | Analiza patrones y responde preguntas sobre múltiples transcripciones de reuniones       |
+| 7 | **Acciones en SIM**       | Crea, asigna y hace seguimiento de acciones correctivas directamente en el SIM Board     |
 
 ### Estructura de la guía
 
