@@ -6,7 +6,7 @@ icon: clock-rotate-left
 
 ### 概述
 
-**Historical Lookup** 是一个 AI 功能，基于当前正在处理的 Kata QRCI，搜索同一工厂的已关闭 Kata 并返回最相似的结果。对于每个历史 Kata，用户可以查看 AI 对匹配原因的解释，并有选择性地导入用于解决过去问题的行动，从而加快对重复性问题的响应速度。
+**历史查询** 是一个 AI 功能，基于当前正在处理的 Kata QRCI，搜索同一工厂的已关闭 Kata 并返回最相似的结果。对于每个历史 Kata，用户可以查看 AI 对匹配原因的解释，并有选择性地导入用于解决过去问题的行动，从而加快对重复性问题的响应速度。
 
 <figure><img src=".gitbook/assets/historical-lookup_ai-analysis-accordion-expanded.png" alt=""><figcaption></figcaption></figure>
 
@@ -18,7 +18,7 @@ icon: clock-rotate-left
 
 ## 先决条件
 
-* 当前 Kata 必须定义了工厂：只有在配置了工厂后，Historical Lookup 才会激活。
+* 当前 Kata 必须定义了工厂：只有在配置了工厂后，历史查询 才会激活。
 * 搜索范围内必须至少存在一个状态为**已关闭**的 Kata，AI 才能找到匹配项。
 * 用户必须对搜索范围内的历史 Kata 具有读取权限。
 
@@ -34,7 +34,7 @@ icon: clock-rotate-left
 {% endstep %}
 
 {% step %}
-### 启动 Historical Lookup
+### 启动 历史查询
 
 * 在 **Kata** 列中，点击正在处理的已打开 Kata 旁边的 **Kata 相似度图标**。
 
@@ -44,9 +44,9 @@ icon: clock-rotate-left
 {% step %}
 ### 等待 AI 搜索完成
 
-* **AI Historical Lookup** 模态框打开，搜索自动开始——不需要额外输入。等待加载消息（"正在加载相似 Kata…"）完成。
+* **AI 历史查询** 模态框打开，搜索自动开始——不需要额外输入。等待加载消息（"正在加载相似 Kata…"）完成。
 
-<figure><img src=".gitbook/assets/historical-lookup_modal-in-loading-state.png" alt="处于加载状态的 Historical Lookup 模态框"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/historical-lookup_modal-in-loading-state.png" alt="处于加载状态的 历史查询 模态框"><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -136,7 +136,7 @@ icon: clock-rotate-left
 ## 提示与已知限制
 
 {% hint style="info" %}
-* 默认情况下，Historical Lookup 仅在当前工厂内搜索。启用多工厂范围后，来源工厂在每个结果上都有清晰标注。
+* 默认情况下，历史查询 仅在当前工厂内搜索。启用多工厂范围后，来源工厂在每个结果上都有清晰标注。
 * 只考虑**已关闭**的 Kata；进行中的 Kata 被排除在外。
 * 相同或几乎相同的 Kata 不会被隐藏——它们以非常高的相似度出现，让您决定是否导入其行动。
 * 导入的行动总是重新开始（状态 = 已打开，截止日期 = 默认今天 + 7 天）：新负责人承担截止日期所有权。
