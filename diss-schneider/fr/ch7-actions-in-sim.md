@@ -143,7 +143,7 @@ Modifier une action dispose de la **sauvegarde automatique** : chaque champ est 
 
 <figure><img src=".gitbook/assets/edit-action_solutions-proposals-with-ai-suggest.png" alt="Solutions et propositions avec AI Suggest"><figcaption></figcaption></figure>
 
-* Les propositions sont extraites des documents chargés dans la **Source de Connaissance DeepFind**.
+* Les propositions sont extraites des documents chargés dans la **Source de Connaissance Deep Find**.
 
 <figure><img src=".gitbook/assets/edit-action_solutions-proposals-from-deepfind-document.png" alt="Solutions et propositions extraites de la Source de Connaissance DeepFind"><figcaption></figcaption></figure>
 {% endstep %}
