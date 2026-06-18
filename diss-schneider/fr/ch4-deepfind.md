@@ -2,11 +2,11 @@
 icon: magnifying-glass
 ---
 
-# 4. Deep Find
+# 4. Recherche Approfondie
 
 ### Aperçu général
 
-**Deep Find** est un chatbot IA intégré dans DISS qui permet aux utilisateurs d'interroger une Source de Connaissance configurée — un référentiel de manuels d'usine, procédures, FAQs, politiques, rapports — en langage naturel. Deep Find analyse les documents qui ont été chargés et synthétise une réponse basée sur leur contenu. Plusieurs documents peuvent être joints à la même conversation pour fournir un contexte plus riche à l'IA.
+**Recherche Approfondie** est un chatbot IA intégré dans DISS qui permet aux utilisateurs d'interroger une Source de Connaissance configurée — un référentiel de manuels d'usine, procédures, FAQs, politiques, rapports — en langage naturel. Recherche Approfondie analyse les documents qui ont été chargés et synthétise une réponse basée sur leur contenu. Plusieurs documents peuvent être joints à la même conversation pour fournir un contexte plus riche à l'IA.
 
 <figure><img src=".gitbook/assets/DeepFind-Cover Welcome page.png" alt=""><figcaption></figcaption></figure>
 
@@ -21,10 +21,10 @@ icon: magnifying-glass
 
 * Une Source de Connaissance doit être configurée pour votre site dans DISS.
 * Les documents pertinents (manuels, procédures, FAQs, références de codes d'erreur) doivent avoir été chargés dans la Source de Connaissance.
-* Deep Find doit être explicitement activé dans cette Source de Connaissance.
+* Recherche Approfondie doit être explicitement activé dans cette Source de Connaissance.
 
 {% hint style="info" %}
-Si Deep Find n'est pas visible dans votre barre d'outils DISS, contactez votre administrateur DISS pour vérifier qu'une Source de Connaissance avec Deep Find activé a été configurée pour votre site.
+Si Recherche Approfondie n'est pas visible dans votre barre d'outils DISS, contactez votre administrateur DISS pour vérifier qu'une Source de Connaissance avec Recherche Approfondie activé a été configurée pour votre site.
 {% endhint %}
 
 ## Comment l'utiliser
@@ -33,7 +33,7 @@ Si Deep Find n'est pas visible dans votre barre d'outils DISS, contactez votre a
 {% step %}
 ### Configurer la Source de Connaissance
 
-* Cette étape est effectuée par un utilisateur ayant le périmètre **administrateur de Source de Connaissance** et doit être réalisée avant que les utilisateurs finaux puissent interroger Deep Find.
+* Cette étape est effectuée par un utilisateur ayant le périmètre **administrateur de Source de Connaissance** et doit être réalisée avant que les utilisateurs finaux puissent interroger Recherche Approfondie.
 
 <figure><img src=".gitbook/assets/diss_user-profile-details-with-knowledge-source-administrator-scope-highlighted.png" alt="Profil utilisateur avec le périmètre administrateur de Source de Connaissance mis en évidence"><figcaption></figcaption></figure>
 
@@ -49,15 +49,15 @@ Si Deep Find n'est pas visible dans votre barre d'outils DISS, contactez votre a
 
 <figure><img src=".gitbook/assets/knowledge-sources_permissions-tab-with-organisation-and-group-configured.png" alt="Onglet Autorisations avec organisation et groupe configurés"><figcaption></figcaption></figure>
 
-* Dans l'onglet **Agents IA**, activer le sélecteur **Deep Find AI Assistant** pour connecter cette Source de Connaissance à Deep Find.
+* Dans l'onglet **Agents IA**, activer le sélecteur **Recherche Approfondie AI Assistant** pour connecter cette Source de Connaissance à Recherche Approfondie.
 
 <figure><img src=".gitbook/assets/knowledge-sources_ai-agents-tab-with-deepfind-ai-assistant-enabled.png" alt="Onglet Agents IA avec DeepFind AI Assistant activé"><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
-### Ouvrir Deep Find
+### Ouvrir Recherche Approfondie
 
-* Localiser l'icône **Deep Find Assistant** dans la barre d'outils DISS et cliquer pour ouvrir l'interface de chat.
+* Localiser l'icône **Recherche Approfondie Assistant** dans la barre d'outils DISS et cliquer pour ouvrir l'interface de chat.
 
 <figure><img src=".gitbook/assets/deepfind_assistant-icon-in-the-toolbar.png" alt="Icône DeepFind Assistant dans la barre d'outils"><figcaption></figcaption></figure>
 
@@ -75,7 +75,7 @@ Si Deep Find n'est pas visible dans votre barre d'outils DISS, contactez votre a
 {% step %}
 ### Lire la réponse et faire un suivi
 
-* Lire la réponse synthétisée. Deep Find cite le document source et la section à la fin de chaque réponse, pour vérifier la provenance de l'information. Si nécessaire, poser une question de suivi pour affiner ou approfondir la réponse.
+* Lire la réponse synthétisée. Recherche Approfondie cite le document source et la section à la fin de chaque réponse, pour vérifier la provenance de l'information. Si nécessaire, poser une question de suivi pour affiner ou approfondir la réponse.
 
 <figure><img src=".gitbook/assets/deepfind_synthesised-answer-and-follow-up-turn.png" alt="Réponse synthétisée et tour de suivi"><figcaption></figcaption></figure>
 {% endstep %}
@@ -83,15 +83,15 @@ Si Deep Find n'est pas visible dans votre barre d'outils DISS, contactez votre a
 
 ## Lecture du résultat
 
-Deep Find synthétise une réponse basée sur les passages les plus pertinents trouvés dans la Source de Connaissance configurée et les documents joints à la conversation. La réponse respecte les politiques d'accès des documents sous-jacents : un utilisateur ne voit que les informations des documents auxquels il a accès.
+Recherche Approfondie synthétise une réponse basée sur les passages les plus pertinents trouvés dans la Source de Connaissance configurée et les documents joints à la conversation. La réponse respecte les politiques d'accès des documents sous-jacents : un utilisateur ne voit que les informations des documents auxquels il a accès.
 
-Lorsque Deep Find ne peut pas répondre à partir du matériel disponible, il renvoie : _« Je suis désolé, mais je ne peux pas vous aider avec cela car c'est en dehors du périmètre de mes connaissances. »_ Cela signifie qu'aucun document pertinent n'a été trouvé, pas que le sujet n'existe pas.
+Lorsque Recherche Approfondie ne peut pas répondre à partir du matériel disponible, il renvoie : _« Je suis désolé, mais je ne peux pas vous aider avec cela car c'est en dehors du périmètre de mes connaissances. »_ Cela signifie qu'aucun document pertinent n'a été trouvé, pas que le sujet n'existe pas.
 
 ## Conseils et limites connues
 
 {% hint style="info" %}
 * Poser une question à la fois — les questions composées ont tendance à recevoir des réponses partielles.
 * Si la réponse est incomplète, reformuler avec des mots-clés différents ou être plus précis sur l'équipement, le processus ou le code d'erreur.
-* Si la question est dans le périmètre mais qu'aucune réponse n'est trouvée, consulter l'administrateur DISS pour vérifier que le document pertinent est chargé et Deep Find activé dans cette Source de Connaissance.
-* Deep Find n'invente pas de contenu : il ne référence que le matériel présent dans la Source de Connaissance configurée ou les documents joints.
+* Si la question est dans le périmètre mais qu'aucune réponse n'est trouvée, consulter l'administrateur DISS pour vérifier que le document pertinent est chargé et Recherche Approfondie activé dans cette Source de Connaissance.
+* Recherche Approfondie n'invente pas de contenu : il ne référence que le matériel présent dans la Source de Connaissance configurée ou les documents joints.
 {% endhint %}
