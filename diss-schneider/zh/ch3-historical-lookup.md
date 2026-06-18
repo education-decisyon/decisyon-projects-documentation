@@ -2,7 +2,7 @@
 icon: clock-rotate-left
 ---
 
-# 3. Historical Lookup
+# 3. 历史查询
 
 ### 概述
 
