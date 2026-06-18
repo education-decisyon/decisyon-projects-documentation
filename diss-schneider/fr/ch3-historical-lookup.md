@@ -4,7 +4,7 @@ icon: clock-rotate-left
 
 # 3. Historical Lookup
 
-### Overview
+### Aperçu général
 
 **Historical Lookup** est une fonctionnalité IA qui, à partir du Kata QRCI en cours de traitement, recherche les Katas clôturés du même site et renvoie les plus similaires. Pour chaque Kata historique, l'utilisateur peut consulter l'explication IA sur la correspondance et importer — sélectivement — les actions qui ont été utilisées pour résoudre le problème passé, accélérant la réponse face aux problèmes récurrents.
 
