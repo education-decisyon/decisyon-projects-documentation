@@ -2,11 +2,11 @@
 icon: microphone
 ---
 
-# 5. MeetingSense
+# 5. Meeting Sense
 
 ### Overview
 
-**MeetingSense** is the meeting recording and transcription capability embedded in DISS. It transforms the spoken dialogue of a SIM meeting into structured, digital data: a textual transcription, an executive summary, the issues raised, and a list of proposed actions ready to be added to the SIM action plan. The session is automatically contextualised with the metadata of the SIM Board it was launched from (Plant, SIM level, Production Area) so that every output is already linked to the right operational scope.
+**Meeting Sense** is the meeting recording and transcription capability embedded in DISS. It transforms the spoken dialogue of a SIM meeting into structured, digital data: a textual transcription, an executive summary, the issues raised, and a list of proposed actions ready to be added to the SIM action plan. The session is automatically contextualised with the metadata of the SIM Board it was launched from (Plant, SIM level, Production Area) so that every output is already linked to the right operational scope.
 
 <figure><img src=".gitbook/assets/recording-widget-in-active-state-during-the-meeting-with-session-duration-and-audio-status-indicator.png" alt=""><figcaption></figcaption></figure>
 
@@ -18,7 +18,7 @@ icon: microphone
 
 ## Prerequisites
 
-* The SIM Board on which the meeting is opened must be a **SIM 2** Board (MeetingSense is enabled at this SIM level).
+* The SIM Board on which the meeting is opened must be a **SIM 2** Board (Meeting Sense is enabled at this SIM level).
 * A working microphone must be available on the device used to start the meeting.
 * Attendance roles must be configured for the SIM 2 Board — accessible at **Plant Configuration → Attendance → SIM 2 Attendance Configuration.**
 * The user must have permission to start a meeting on the SIM Board in scope.
@@ -121,5 +121,5 @@ A pre-defined timeout protects against meetings left open by mistake: a notifica
 * Speak clearly and avoid overlapping voices: AI extraction quality scales with audio clarity.
 * Mention names and dates with precision — "John, by Friday" produces a stronger AI suggestion than implicit references such as "him, by end of week".
 * Category and Owner are mandatory for action creation: an action proposed without those values must be completed in the validation table before it can be saved.
-* MeetingSense is a recording assistant: the SIM Leader is always in control — actions become part of the SIM plan only after explicit validation, and the transcript can be edited and re-summarised before any action is created.
+* Meeting Sense is a recording assistant: the SIM Leader is always in control — actions become part of the SIM plan only after explicit validation, and the transcript can be edited and re-summarised before any action is created.
 {% endhint %}
