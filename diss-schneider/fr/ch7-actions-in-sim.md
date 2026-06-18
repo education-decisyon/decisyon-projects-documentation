@@ -14,7 +14,7 @@ La fonctionnalité **Actions** dans DISS est la manière structurée d'enregistr
 
 * Ouvrir une **Créer une action** lors d'une réunion SIM quand un problème ou une opportunité est identifié sur la ligne : un problème Sécurité / Qualité / Livraison / Maintenance / Production / Ingénierie avec un responsable clair et une date limite.
 * Ouvrir une **Modifier une action** entre les réunions SIM pour maintenir une action à jour : progression du statut, description affinée, nouvelles pièces jointes, solutions capturées ou notes ajoutées au Journal d'activité.
-* Utiliser Actions in SIM pour s'assurer que chaque problème identifié sur un SIM Board devient une activité traçable et assignable, plutôt qu'un engagement verbal.
+* Utiliser Actions dans SIM pour s'assurer que chaque problème identifié sur un SIM Board devient une activité traçable et assignable, plutôt qu'un engagement verbal.
 
 ## Prérequis
 
@@ -143,7 +143,7 @@ Modifier une action dispose de la **sauvegarde automatique** : chaque champ est 
 
 <figure><img src=".gitbook/assets/edit-action_solutions-proposals-with-ai-suggest.png" alt="Solutions et propositions avec AI Suggest"><figcaption></figcaption></figure>
 
-* Les propositions sont extraites des documents chargés dans la **Source de Connaissance Deep Find**.
+* Les propositions sont extraites des documents chargés dans la **Source de Connaissance Recherche Approfondie**.
 
 <figure><img src=".gitbook/assets/edit-action_solutions-proposals-from-deepfind-document.png" alt="Solutions et propositions extraites de la Source de Connaissance DeepFind"><figcaption></figcaption></figure>
 {% endstep %}
