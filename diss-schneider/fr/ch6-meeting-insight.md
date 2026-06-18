@@ -6,7 +6,7 @@ icon: chart-line
 
 ### Aperçu général
 
-Meeting Insight est un agent IA qui travaille sur les réunions déjà capturées par MeetingSense. Tandis que MeetingSense se concentre sur un seul enregistrement, Meeting Insight analyse plusieurs transcriptions de réunions simultanément pour identifier les tendances, problèmes récurrents et actions agrégées dans l'ensemble des archives. Il transforme un flux de comptes-rendus SIM individuels en intelligence opérationnelle au niveau du site ou de la zone.
+Meeting Insight est un agent IA qui travaille sur les réunions déjà capturées par Meeting Sense. Tandis que Meeting Sense se concentre sur un seul enregistrement, Meeting Insight analyse plusieurs transcriptions de réunions simultanément pour identifier les tendances, problèmes récurrents et actions agrégées dans l'ensemble des archives. Il transforme un flux de comptes-rendus SIM individuels en intelligence opérationnelle au niveau du site ou de la zone.
 
 <figure><img src=".gitbook/assets/meeting-insight_action-items-list-aggregated-across-meetings.png" alt=""><figcaption></figcaption></figure>
 
@@ -19,7 +19,7 @@ Meeting Insight est un agent IA qui travaille sur les réunions déjà capturée
 
 ## Prérequis
 
-* Au moins une transcription de réunion produite par MeetingSense doit exister dans l'environnement DISS.
+* Au moins une transcription de réunion produite par Meeting Sense doit exister dans l'environnement DISS.
 * L'utilisateur doit avoir accès aux archives Overview Meeting.
 * L'utilisateur doit avoir accès en lecture aux réunions incluses dans l'analyse.
 
@@ -106,7 +106,7 @@ Les résultats sont indicatifs. Le chef de réunion reste responsable de transfo
 ## Conseils et limites connues
 
 {% hint style="info" %}
-* La qualité des insights dépend de la qualité des comptes-rendus MeetingSense sous-jacents : encourager des enregistrements clairs et la mention explicite des responsables et des dates lors des réunions.
+* La qualité des insights dépend de la qualité des comptes-rendus Meeting Sense sous-jacents : encourager des enregistrements clairs et la mention explicite des responsables et des dates lors des réunions.
 * Utiliser les filtres avant de lancer l'agent — analyser un jeu de données ciblé (ex. un niveau SIM et un mois) produit des insights plus précis qu'analyser l'ensemble des archives.
 * La participation IA en temps réel pendant la réunion SIM elle-même ne fait pas partie de cette version : Meeting Insight opère aujourd'hui sur des comptes-rendus déjà enregistrés.
 * Les insights sont indicatifs : le chef est responsable de traduire les tendances récurrentes en contre-mesures concrètes via des Actions ou des Katas.
