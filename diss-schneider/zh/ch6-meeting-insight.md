@@ -2,7 +2,7 @@
 icon: chart-line
 ---
 
-# 6. Meeting Insight
+# 6. 会议洞察
 
 ### 概述
 
