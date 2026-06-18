@@ -10,7 +10,14 @@ This User Guide describes the **AI capabilities** recently added to the **DISS p
 
 ### New AI features
 
-| Feature                                       | Description                                                                              || --------------------------------------------- | ---------------------------------------------------------------------------------------- || **AI-Assisted 5W2H**   | Evaluates and scores Kata problem statement quality across 7 dimensions                  || **Historical Lookup** | Finds similar closed Katas and selectively copies their actions to the current one       || **Deep Find**                   | AI chatbot that answers natural-language questions against a configured Knowledge Source || **Meeting Sense**           | Records SIM meetings, transcribes audio, and proposes actions automatically              || **Meeting Insight**     | Analyses patterns and answers questions across multiple meeting transcripts              || **Actions in SIM**       | Creates, assigns, and tracks corrective actions directly on the SIM Board                |
+| Feature                                       | Description                                                                              |
+| --------------------------------------------- | ---------------------------------------------------------------------------------------- |
+| **AI-Assisted 5W2H**   | Evaluates and scores Kata problem statement quality across 7 dimensions                  |
+| **Historical Lookup** | Finds similar closed Katas and selectively copies their actions to the current one       |
+| **Deep Find**                   | AI chatbot that answers natural-language questions against a configured Knowledge Source |
+| **Meeting Sense**           | Records SIM meetings, transcribes audio, and proposes actions automatically              |
+| **Meeting Insight**     | Analyses patterns and answers questions across multiple meeting transcripts              |
+| **Actions in SIM**       | Creates, assigns, and tracks corrective actions directly on the SIM Board                |
 ### Guide structure
 
 Each chapter follows a consistent structure:
