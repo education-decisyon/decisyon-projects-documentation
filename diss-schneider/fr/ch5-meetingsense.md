@@ -2,11 +2,11 @@
 icon: microphone
 ---
 
-# 5. MeetingSense
+# 5. Meeting Sense
 
 ### Aperçu général
 
-**MeetingSense** est la capacité d'enregistrement et de transcription de réunions intégrée dans DISS. Elle transforme le dialogue oral d'une réunion SIM en données numériques structurées : une transcription textuelle, un résumé exécutif, les problèmes soulevés et une liste d'actions proposées prêtes à être ajoutées au plan d'action SIM. La session est automatiquement contextualisée avec les métadonnées du SIM Board depuis lequel elle a été lancée (Site, niveau SIM, Zone de production) pour que chaque résultat soit déjà lié au bon périmètre opérationnel.
+**Meeting Sense** est la capacité d'enregistrement et de transcription de réunions intégrée dans DISS. Elle transforme le dialogue oral d'une réunion SIM en données numériques structurées : une transcription textuelle, un résumé exécutif, les problèmes soulevés et une liste d'actions proposées prêtes à être ajoutées au plan d'action SIM. La session est automatiquement contextualisée avec les métadonnées du SIM Board depuis lequel elle a été lancée (Site, niveau SIM, Zone de production) pour que chaque résultat soit déjà lié au bon périmètre opérationnel.
 
 <figure><img src=".gitbook/assets/recording-widget-in-active-state-during-the-meeting-with-session-duration-and-audio-status-indicator.png" alt=""><figcaption></figcaption></figure>
 
@@ -18,7 +18,7 @@ icon: microphone
 
 ## Prérequis
 
-* Le SIM Board dans lequel la réunion est ouverte doit être un **SIM 2** Board (MeetingSense est activé à ce niveau SIM).
+* Le SIM Board dans lequel la réunion est ouverte doit être un **SIM 2** Board (Meeting Sense est activé à ce niveau SIM).
 * Un microphone fonctionnel doit être disponible sur l'appareil utilisé pour démarrer la réunion.
 * Les rôles de présence doivent être configurés pour le SIM 2 Board — accessible dans **Configuration du site → Présence → Configuration de la présence SIM 2.**
 * L'utilisateur doit avoir la permission de démarrer une réunion sur le SIM Board concerné.
@@ -121,5 +121,5 @@ Un délai d'expiration prédéfini protège contre les réunions laissées ouver
 * Parler clairement et éviter les voix qui se chevauchent : la qualité de l'extraction IA augmente avec la clarté de l'audio.
 * Mentionner les noms et les dates avec précision — « Jean, pour vendredi » produit une suggestion IA plus solide que des références implicites comme « lui, pour ce week-end ».
 * La Catégorie et le Responsable sont obligatoires pour la création d'actions : une action proposée sans ces valeurs doit être complétée dans le tableau de validation avant de pouvoir être enregistrée.
-* MeetingSense est un assistant d'enregistrement : le Chef SIM garde toujours le contrôle — les actions font partie du plan SIM uniquement après validation explicite, et la transcription peut être modifiée et résumée à nouveau avant de créer des actions.
+* Meeting Sense est un assistant d'enregistrement : le Chef SIM garde toujours le contrôle — les actions font partie du plan SIM uniquement après validation explicite, et la transcription peut être modifiée et résumée à nouveau avant de créer des actions.
 {% endhint %}
