@@ -78,7 +78,7 @@ When at least one action is selected, the **Import N Actions** button appears at
 
 * **Title**, **description** are copied from the source;&#x20;
 * Status is reset to Open;&#x20;
-* Due date is changed to the current date, the new owner picks a fresh deadline.
+* Due date by default today + 7 days, the new owner picks a fresh deadline.
 
 On success, the modal closes automatically, a confirmation message appears, and the Actions table of the current Kata refreshes to show the new records.
 
@@ -139,6 +139,6 @@ On success, the modal closes automatically, a confirmation message appears, and 
 * By default Historical Lookup searches only inside the current Plant. When multi-plant scope is enabled, the source Plant is clearly labelled on every result.
 * Only **Closed** Katas are considered; in-progress Katas are excluded.
 * Identical or near-identical Katas are not hidden — they appear with very high similarity so you can decide whether to import their actions.
-* Imported actions always start fresh (Status = Open, Due date = Current Date): the new owner takes ownership of timing.
+* Imported actions always start fresh (Status = Open, Due date = by default today + 7 days): the new owner takes ownership of timing.
 * Filters on Area, Line, Source, KPI are NOT hard filters — the AI uses them as semantic context, which means a relevant match from a different Line may still be proposed.
 {% endhint %}

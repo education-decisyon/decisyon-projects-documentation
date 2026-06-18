@@ -27,7 +27,7 @@ icon: star-half-stroke
 {% step %}
 ### Navigate to Kata QRCI
 
-Navigate to **Digitized Idea & SIM System → Kata QRCI**. The dashboard lists all existing Katas, filterable by date range, Status, and KPI. Click **Add** (top-right) to open the new Kata creation form.
+* Navigate to **Digitized Idea & SIM System → Kata QRCI**. The dashboard lists all existing Katas, filterable by date range, Status, and KPI. Click **Add** (top-right) to open the new Kata creation form.
 
 <figure><img src=".gitbook/assets/kata-qrci_dashboard-with-kata-list-and-add-button-highlighted.png" alt="Kata QRCI dashboard with Add button highlighted"><figcaption></figcaption></figure>
 {% endstep %}
@@ -35,7 +35,13 @@ Navigate to **Digitized Idea & SIM System → Kata QRCI**. The dashboard lists a
 {% step %}
 ### Fill in the Kata header
 
-In the Add form, set the context fields: **Production Area** and **Line** (from the plant hierarchy), **Title** (a concise problem statement), **Leader** and **Coach** (both required), **Source** (the origin category of the problem — e.g. Downtime, Efficiency, Maintenance issues, Check Do check non-conformance, High lead time, Layered Process audit non-conformance), and **KPI** (e.g. OEE). Creation Date is pre-filled with today.
+In the Add form, set the context fields:&#x20;
+
+* **Production Area** and **Line** (from the plant hierarchy);
+* **Title** (a concise problem statement);
+* &#x20;**Leader** and **Coach** (both required);
+* &#x20;**Source** (the origin category of the problem — e.g. Downtime, Efficiency, Maintenance issues and **KPI** (e.g. OEE);
+* &#x20;**Creation Date** is pre-filled with today.
 
 <figure><img src=".gitbook/assets/Kata QRCI — Add form with header fields filled in.png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
@@ -55,7 +61,7 @@ In the Add form, set the context fields: **Production Area** and **Line** (from 
 
 <figure><img src=".gitbook/assets/5w2h_clicking-the-badge-opens-the-detailed-popup.png" alt="Clicking the badge opens the detailed popup" width="563"><figcaption></figcaption></figure>
 
-Review the circular score, the qualitative label, and the **Focus on:** priority area suggested by the AI.&#x20;
+* Review the circular score, the qualitative label, and the **Focus on:** priority area suggested by the AI.&#x20;
 
 <figure><img src=".gitbook/assets/5w2h_detailed-popup-with-circular-score-and-focus-on-area.png" alt="Detailed popup with circular score and Focus on area" width="563"><figcaption></figcaption></figure>
 
@@ -71,7 +77,7 @@ Review the circular score, the qualitative label, and the **Focus on:** priority
 {% step %}
 ### Open the Kata to activate the 5W2H widget
 
-The new Kata appears in the **Kata QRCI** list. Open it: the **AI-Assisted 5W2H** widget is now active on the Current State and Target State fields and begins evaluating the text you entered.
+* The new Kata appears in the **Kata QRCI** list. Open it: the **AI-Assisted 5W2H** widget is now active on the Current State and Target State fields and begins evaluating the text you entered.
 
 <figure><img src=".gitbook/assets/kata-qrci_newly-created-kata-visible-in-the-list-ready-to-open.png" alt="Newly created Kata visible in the list, ready to open"><figcaption></figcaption></figure>
 {% endstep %}
