@@ -143,7 +143,7 @@ Edit Action is **auto-saving**: each field is committed individually when you le
 
 <figure><img src=".gitbook/assets/edit-action_solutions-proposals-with-ai-suggest.png" alt="Solutions &#x26; Proposals with AI Suggest"><figcaption></figcaption></figure>
 
-* The proposals are extracted from the documents uploaded to the **DeepFind Knowledge Source**.
+* The proposals are extracted from the documents uploaded to the **Deep Find Knowledge Source**.
 
 <figure><img src=".gitbook/assets/edit-action_solutions-proposals-from-deepfind-document.png" alt="Solutions &#x26; Proposals populated from the DeepFind Knowledge Source"><figcaption></figcaption></figure>
 {% endstep %}
