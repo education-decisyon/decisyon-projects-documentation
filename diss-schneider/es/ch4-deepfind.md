@@ -2,11 +2,11 @@
 icon: magnifying-glass
 ---
 
-# 4. Deep Find
+# 4. Búsqueda Profunda
 
 ### Descripción general
 
-**Deep Find** es un chatbot de IA integrado en DISS que permite a los usuarios consultar una Fuente de Conocimiento configurada — un repositorio de manuales de planta, procedimientos, FAQs, políticas, informes — usando lenguaje natural. Deep Find analiza los documentos que han sido cargados y sintetiza una respuesta basada en su contenido. Se pueden adjuntar múltiples documentos a la misma conversación para proporcionar un contexto más rico a la IA.
+**Búsqueda Profunda** es un chatbot de IA integrado en DISS que permite a los usuarios consultar una Fuente de Conocimiento configurada — un repositorio de manuales de planta, procedimientos, FAQs, políticas, informes — usando lenguaje natural. Búsqueda Profunda analiza los documentos que han sido cargados y sintetiza una respuesta basada en su contenido. Se pueden adjuntar múltiples documentos a la misma conversación para proporcionar un contexto más rico a la IA.
 
 <figure><img src=".gitbook/assets/DeepFind-Cover Welcome page.png" alt=""><figcaption></figcaption></figure>
 
@@ -21,10 +21,10 @@ icon: magnifying-glass
 
 * Debe configurarse una Fuente de Conocimiento para tu planta en DISS.
 * Los documentos relevantes (manuales, procedimientos, FAQs, referencias de códigos de error) deben haberse cargado a la Fuente de Conocimiento.
-* Deep Find debe estar explícitamente habilitado en esa Fuente de Conocimiento.
+* Búsqueda Profunda debe estar explícitamente habilitado en esa Fuente de Conocimiento.
 
 {% hint style="info" %}
-Si Deep Find no es visible en tu barra de herramientas DISS, contacta a tu administrador DISS para verificar que se ha configurado una Fuente de Conocimiento con Deep Find habilitado para tu planta.
+Si Búsqueda Profunda no es visible en tu barra de herramientas DISS, contacta a tu administrador DISS para verificar que se ha configurado una Fuente de Conocimiento con Búsqueda Profunda habilitado para tu planta.
 {% endhint %}
 
 ## Cómo usarla
@@ -33,7 +33,7 @@ Si Deep Find no es visible en tu barra de herramientas DISS, contacta a tu admin
 {% step %}
 ### Configurar la Fuente de Conocimiento
 
-* Este paso lo realiza un usuario con el ámbito de **administrador de Fuente de Conocimiento** y debe completarse antes de que los usuarios finales puedan consultar Deep Find.
+* Este paso lo realiza un usuario con el ámbito de **administrador de Fuente de Conocimiento** y debe completarse antes de que los usuarios finales puedan consultar Búsqueda Profunda.
 
 <figure><img src=".gitbook/assets/diss_user-profile-details-with-knowledge-source-administrator-scope-highlighted.png" alt="Perfil de usuario con el ámbito de administrador de Fuente de Conocimiento destacado"><figcaption></figcaption></figure>
 
@@ -49,15 +49,15 @@ Si Deep Find no es visible en tu barra de herramientas DISS, contacta a tu admin
 
 <figure><img src=".gitbook/assets/knowledge-sources_permissions-tab-with-organisation-and-group-configured.png" alt="Pestaña Permisos con organización y grupo configurados"><figcaption></figcaption></figure>
 
-* En la pestaña **Agentes de IA**, habilitar el selector **Deep Find AI Assistant** para conectar esta Fuente de Conocimiento a Deep Find.
+* En la pestaña **Agentes de IA**, habilitar el selector **Búsqueda Profunda AI Assistant** para conectar esta Fuente de Conocimiento a Búsqueda Profunda.
 
 <figure><img src=".gitbook/assets/knowledge-sources_ai-agents-tab-with-deepfind-ai-assistant-enabled.png" alt="Pestaña Agentes de IA con DeepFind AI Assistant habilitado"><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
-### Abrir Deep Find
+### Abrir Búsqueda Profunda
 
-* Localizar el icono **Deep Find Assistant** en la barra de herramientas DISS y hacer clic para abrir la interfaz de chat.
+* Localizar el icono **Búsqueda Profunda Assistant** en la barra de herramientas DISS y hacer clic para abrir la interfaz de chat.
 
 <figure><img src=".gitbook/assets/deepfind_assistant-icon-in-the-toolbar.png" alt="Icono DeepFind Assistant en la barra de herramientas"><figcaption></figcaption></figure>
 
@@ -75,7 +75,7 @@ Si Deep Find no es visible en tu barra de herramientas DISS, contacta a tu admin
 {% step %}
 ### Leer la respuesta y hacer seguimiento
 
-* Leer la respuesta sintetizada. Deep Find cita el documento fuente y la sección al final de cada respuesta, para que puedas verificar de dónde proviene la información. Si es necesario, hacer una pregunta de seguimiento para refinar o ampliar la respuesta.
+* Leer la respuesta sintetizada. Búsqueda Profunda cita el documento fuente y la sección al final de cada respuesta, para que puedas verificar de dónde proviene la información. Si es necesario, hacer una pregunta de seguimiento para refinar o ampliar la respuesta.
 
 <figure><img src=".gitbook/assets/deepfind_synthesised-answer-and-follow-up-turn.png" alt="Respuesta sintetizada y turno de seguimiento"><figcaption></figcaption></figure>
 {% endstep %}
@@ -83,15 +83,15 @@ Si Deep Find no es visible en tu barra de herramientas DISS, contacta a tu admin
 
 ## Lectura del resultado
 
-Deep Find sintetiza una respuesta basada en los pasajes más relevantes encontrados en la Fuente de Conocimiento configurada y en los documentos adjuntos a la conversación. La respuesta respeta las políticas de acceso de los documentos subyacentes: un usuario solo ve información de los documentos a los que tiene acceso.
+Búsqueda Profunda sintetiza una respuesta basada en los pasajes más relevantes encontrados en la Fuente de Conocimiento configurada y en los documentos adjuntos a la conversación. La respuesta respeta las políticas de acceso de los documentos subyacentes: un usuario solo ve información de los documentos a los que tiene acceso.
 
-Cuando Deep Find no puede responder basándose en el material disponible, devuelve: _"Lo siento, pero no puedo ayudar con eso porque está fuera del alcance de mi conocimiento."_ Esto significa que no se encontró ningún documento relevante, no que el tema no exista.
+Cuando Búsqueda Profunda no puede responder basándose en el material disponible, devuelve: _"Lo siento, pero no puedo ayudar con eso porque está fuera del alcance de mi conocimiento."_ Esto significa que no se encontró ningún documento relevante, no que el tema no exista.
 
 ## Consejos y límites conocidos
 
 {% hint style="info" %}
 * Hacer una pregunta a la vez — las preguntas compuestas tienden a responderse parcialmente.
 * Si la respuesta es incompleta, reformular con diferentes palabras clave o ser más específico sobre el equipo, proceso o código de error.
-* Si la pregunta está dentro del alcance pero no se encuentra respuesta, consultar al administrador DISS para verificar que el documento relevante está cargado y Deep Find está habilitado en esa Fuente de Conocimiento.
-* Deep Find no inventa contenido: solo referencia material presente en la Fuente de Conocimiento configurada o en los documentos adjuntos.
+* Si la pregunta está dentro del alcance pero no se encuentra respuesta, consultar al administrador DISS para verificar que el documento relevante está cargado y Búsqueda Profunda está habilitado en esa Fuente de Conocimiento.
+* Búsqueda Profunda no inventa contenido: solo referencia material presente en la Fuente de Conocimiento configurada o en los documentos adjuntos.
 {% endhint %}
