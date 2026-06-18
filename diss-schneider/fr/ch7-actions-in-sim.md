@@ -4,7 +4,7 @@ icon: list-check
 
 # 7. Actions in SIM
 
-### Overview
+### Aperçu général
 
 La fonctionnalité **Actions** dans DISS est la manière structurée d'enregistrer, d'assigner et de suivre les activités correctives et d'amélioration directement depuis les SIM Boards. Deux cas d'usage complémentaires sont documentés ici : **Créer une action** — pour enregistrer une nouvelle action avec tout le contexte SIM — et **Modifier une action** — pour maintenir une action existante à jour pendant que l'équipe la résout dans la routine quotidienne SIM.
 
