@@ -2,11 +2,11 @@
 icon: clock-rotate-left
 ---
 
-# 3. Historical Lookup
+# 3. Búsqueda Histórica
 
 ### Descripción general
 
-**Historical Lookup** es una función de IA que, partiendo del Kata QRCI en el que se está trabajando, busca los Katas cerrados del mismo centro y devuelve los más similares. Para cada Kata histórico el usuario puede revisar la explicación de IA sobre la coincidencia e importar — selectivamente — las acciones que se utilizaron para resolver el problema pasado, acelerando la respuesta ante problemas recurrentes.
+**Búsqueda Histórica** es una función de IA que, partiendo del Kata QRCI en el que se está trabajando, busca los Katas cerrados del mismo centro y devuelve los más similares. Para cada Kata histórico el usuario puede revisar la explicación de IA sobre la coincidencia e importar — selectivamente — las acciones que se utilizaron para resolver el problema pasado, acelerando la respuesta ante problemas recurrentes.
 
 <figure><img src=".gitbook/assets/historical-lookup_ai-analysis-accordion-expanded.png" alt=""><figcaption></figcaption></figure>
 
@@ -18,7 +18,7 @@ icon: clock-rotate-left
 
 ## Requisitos previos
 
-* El Kata actual debe tener un Centro definido: Historical Lookup solo se activa cuando el Centro está configurado.
+* El Kata actual debe tener un Centro definido: Búsqueda Histórica solo se activa cuando el Centro está configurado.
 * Debe existir al menos un Kata con estado **Cerrado** en el ámbito de búsqueda para que la IA encuentre alguna coincidencia.
 * El usuario debe tener acceso de lectura a los Katas históricos en el ámbito de búsqueda.
 
@@ -34,7 +34,7 @@ icon: clock-rotate-left
 {% endstep %}
 
 {% step %}
-### Iniciar Historical Lookup
+### Iniciar Búsqueda Histórica
 
 * En la columna **Kata**, hacer clic en el **icono de similitud Kata** junto al Kata Abierto en el que se está trabajando.
 
@@ -44,9 +44,9 @@ icon: clock-rotate-left
 {% step %}
 ### Esperar a que finalice la búsqueda de IA
 
-* El modal **AI Historical Lookup** se abre y la búsqueda comienza automáticamente — no se requiere ninguna entrada adicional. Esperar a que el mensaje de carga ("Cargando Katas similares…") finalice.
+* El modal **AI Búsqueda Histórica** se abre y la búsqueda comienza automáticamente — no se requiere ninguna entrada adicional. Esperar a que el mensaje de carga ("Cargando Katas similares…") finalice.
 
-<figure><img src=".gitbook/assets/historical-lookup_modal-in-loading-state.png" alt="Modal Historical Lookup en estado de carga"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/historical-lookup_modal-in-loading-state.png" alt="Modal Búsqueda Histórica en estado de carga"><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -136,7 +136,7 @@ Al completarse, el modal se cierra automáticamente, aparece un mensaje de confi
 ## Consejos y límites conocidos
 
 {% hint style="info" %}
-* Por defecto, Historical Lookup busca solo dentro del centro actual. Cuando el ámbito multi-planta está habilitado, el centro de origen se etiqueta claramente en cada resultado.
+* Por defecto, Búsqueda Histórica busca solo dentro del centro actual. Cuando el ámbito multi-planta está habilitado, el centro de origen se etiqueta claramente en cada resultado.
 * Solo se consideran los Katas **Cerrados**; los Katas en curso se excluyen.
 * Los Katas idénticos o casi idénticos no se ocultan — aparecen con una similitud muy alta para que puedas decidir si importar sus acciones.
 * Las acciones importadas siempre comienzan de nuevo (Estado = Abierto, Fecha límite = por defecto hoy + 7 días): el nuevo responsable asume la propiedad del plazo.
