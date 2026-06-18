@@ -4,7 +4,7 @@ icon: microphone
 
 # 5. MeetingSense
 
-### Overview
+### Aperçu général
 
 **MeetingSense** est la capacité d'enregistrement et de transcription de réunions intégrée dans DISS. Elle transforme le dialogue oral d'une réunion SIM en données numériques structurées : une transcription textuelle, un résumé exécutif, les problèmes soulevés et une liste d'actions proposées prêtes à être ajoutées au plan d'action SIM. La session est automatiquement contextualisée avec les métadonnées du SIM Board depuis lequel elle a été lancée (Site, niveau SIM, Zone de production) pour que chaque résultat soit déjà lié au bon périmètre opérationnel.
 
