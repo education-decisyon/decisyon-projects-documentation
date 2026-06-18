@@ -10,7 +10,14 @@ Ce Guide Utilisateur décrit les **capacités d'IA** récemment ajoutées à la 
 
 ### Nouvelles fonctionnalités IA
 
-| Fonctionnalité                                | Description                                                                                    || --------------------------------------------- | ---------------------------------------------------------------------------------------------- || **5W2H Assisté par IA**   | Évalue et note la qualité de l'énoncé de problème Kata selon 7 dimensions                   || **Recherche Historique** | Trouve les Katas clôturés similaires et importe sélectivement leurs actions dans le Kata actuel || **Recherche Approfondie**                   | Chatbot IA qui répond à des questions en langage naturel sur une Source de Connaissance        || **Analyse de Réunion**           | Enregistre les réunions SIM, transcrit l'audio et propose automatiquement des actions         || **Aperçu des Réunions**     | Analyse les tendances et répond à des questions sur plusieurs transcriptions de réunions        || **Actions dans SIM**       | Crée, assigne et suit les actions correctives directement dans le SIM Board                    |
+| Fonctionnalité                                | Description                                                                                    |
+| --------------------------------------------- | ---------------------------------------------------------------------------------------------- |
+| **5W2H Assisté par IA**   | Évalue et note la qualité de l'énoncé de problème Kata selon 7 dimensions                   |
+| **Recherche Historique** | Trouve les Katas clôturés similaires et importe sélectivement leurs actions dans le Kata actuel |
+| **Recherche Approfondie**                   | Chatbot IA qui répond à des questions en langage naturel sur une Source de Connaissance        |
+| **Analyse de Réunion**           | Enregistre les réunions SIM, transcrit l'audio et propose automatiquement des actions         |
+| **Aperçu des Réunions**     | Analyse les tendances et répond à des questions sur plusieurs transcriptions de réunions        |
+| **Actions dans SIM**       | Crée, assigne et suit les actions correctives directement dans le SIM Board                    |
 ### Structure du guide
 
 Chaque chapitre suit une structure cohérente :
