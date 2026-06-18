@@ -6,20 +6,20 @@ icon: star-half-stroke
 
 ### Overview
 
-AI-Assisted 5W2H is a quality assessment widget that evaluates how complete and clear a Kata problem statement is. It scores the text written by the user in the Current State and Target State fields against the 5W2H framework — Who, What, Why, When, Where, How, How Many — and returns an overall quality score and per-dimension feedback. The objective is to standardise quality checks across teams and plants, removing inconsistent and subjective reviews.
+**AI-Assisted 5W2H** is a quality assessment widget that evaluates how complete and clear a Kata problem statement is. It scores the text written by the user in the Current State and Target State fields against the 5W2H framework — **Who, What, Why, When, Where, How, How Many** — and returns an overall quality score and per-dimension feedback. The objective is to standardise quality checks across teams and plants, removing inconsistent and subjective reviews.
 
 <figure><img src=".gitbook/assets/5W2H Cover - Welcome page.png" alt=""><figcaption></figcaption></figure>
 
 ## When to use it
 
-* While drafting the Current State or Target State of a new Kata, to make sure the problem statement is precise enough to be actionable
-* During a coaching session, to support the conversation with evidence taken directly from the user's own text
-* Over time, to track how the quality of problem statements evolves across teams via a stable numeric score
+* While drafting the **Current State** or **Target State** of a new Kata, to make sure the problem statement is precise enough to be actionable.
+* During a coaching session, to support the conversation with evidence taken directly from the user's own text.
+* Over time, to track how the quality of problem statements evolves across teams via a stable numeric score.
 
 ## Prerequisites
 
-* The 5W2H widget must be enabled on the Kata fields where it should run (typically Current State and Target State)
-* The user must have permission to edit the Kata in question
+* The **5W2H** widget must be enabled on the Kata fields where it should run (typically Current State and Target State).
+* The user must have permission to edit the Kata in question.
 
 ## How to use it
 
@@ -43,27 +43,27 @@ In the Add form, set the context fields: **Production Area** and **Line** (from 
 {% step %}
 ### Write the Current Status (5W2H) and Target
 
-In the **Current Status** and **Target (5W2H)** fields, describe the current situation and the desired end state clearly and measurably following the 5W2H framework: Who, What, Why, When, Where, How, How Many.
+* In the **Current Status** and **Target (5W2H)** fields, describe the current situation and the desired end state clearly and measurably following the 5W2H framework: **Who, What, Why, When, Where, How, How Many.**
 
 <figure><img src=".gitbook/assets/5w2h_kata-form-with-current-state-target-state-fields.png" alt="Kata form with Current State and Target State fields"><figcaption></figcaption></figure>
 
-As you type, the inline badge in the widget shows the current quality score and the character count.&#x20;
+* As you type, the inline badge in the widget shows the current quality score and the character count.&#x20;
 
 <figure><img src=".gitbook/assets/5w2h_inline-quality-badge-updating-live-as-the-user-types.png" alt="Inline quality badge updating live as the user types" width="473"><figcaption></figcaption></figure>
 
-Click the inline badge to open the detailed popup.&#x20;
+* Click the inline badge to open the detailed popup.&#x20;
 
-<figure><img src=".gitbook/assets/5w2h_clicking-the-badge-opens-the-detailed-popup.png" alt="Clicking the badge opens the detailed popup"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/5w2h_clicking-the-badge-opens-the-detailed-popup.png" alt="Clicking the badge opens the detailed popup" width="563"><figcaption></figcaption></figure>
 
 Review the circular score, the qualitative label, and the **Focus on:** priority area suggested by the AI.&#x20;
 
-<figure><img src=".gitbook/assets/5w2h_detailed-popup-with-circular-score-and-focus-on-area.png" alt="Detailed popup with circular score and Focus on area"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/5w2h_detailed-popup-with-circular-score-and-focus-on-area.png" alt="Detailed popup with circular score and Focus on area" width="563"><figcaption></figcaption></figure>
 
-Add missing information in your text; the score updates as you save the field.
+* Add missing information in your text; the score updates as you save the field.
 
 <figure><img src=".gitbook/assets/5w2h_score-recalculated-after-adding-missing-information.png" alt="Score recalculated after adding missing information"><figcaption></figcaption></figure>
 
-Click **Save** to create the Kata.
+* Click **Save** to create the Kata.
 
 <figure><img src=".gitbook/assets/kata-qrci_add-form-with-current-status-5w2h-and-target-fields-filled-in.png" alt="Add form with Current Status and Target (5W2H) fields filled in"><figcaption></figcaption></figure>
 {% endstep %}
@@ -71,7 +71,7 @@ Click **Save** to create the Kata.
 {% step %}
 ### Open the Kata to activate the 5W2H widget
 
-The new Kata appears in the Kata QRCI list. Open it: the AI-Assisted 5W2H widget is now active on the Current State and Target State fields and begins evaluating the text you entered.
+The new Kata appears in the **Kata QRCI** list. Open it: the **AI-Assisted 5W2H** widget is now active on the Current State and Target State fields and begins evaluating the text you entered.
 
 <figure><img src=".gitbook/assets/kata-qrci_newly-created-kata-visible-in-the-list-ready-to-open.png" alt="Newly created Kata visible in the list, ready to open"><figcaption></figcaption></figure>
 {% endstep %}

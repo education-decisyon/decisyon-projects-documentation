@@ -6,15 +6,15 @@ icon: microphone
 
 ### Overview
 
-MeetingSense is the meeting recording and transcription capability embedded in DISS. It transforms the spoken dialogue of a SIM meeting into structured, digital data: a textual transcription, an executive summary, the issues raised, and a list of proposed actions ready to be added to the SIM action plan. The session is automatically contextualised with the metadata of the SIM Board it was launched from (Plant, SIM level, Production Area) so that every output is already linked to the right operational scope.
+**MeetingSense** is the meeting recording and transcription capability embedded in DISS. It transforms the spoken dialogue of a SIM meeting into structured, digital data: a textual transcription, an executive summary, the issues raised, and a list of proposed actions ready to be added to the SIM action plan. The session is automatically contextualised with the metadata of the SIM Board it was launched from (Plant, SIM level, Production Area) so that every output is already linked to the right operational scope.
 
 <figure><img src=".gitbook/assets/recording-widget-in-active-state-during-the-meeting-with-session-duration-and-audio-status-indicator.png" alt=""><figcaption></figcaption></figure>
 
 ## When to use it
 
-* During a daily SIM 2 meeting where a team discusses problems, root causes, and corrective actions and wants every outcome traceable in DISS without manual note-taking
-* Whenever the SIM Leader wants the conversation recorded in full so that nothing is lost between the discussion and the action plan
-* When the team needs both an attendance record and a structured set of actions ready to be assigned in one go at the end of the meeting
+* During a daily SIM 2 meeting where a team discusses problems, root causes, and corrective actions and wants every outcome traceable in DISS without manual note-taking.
+* Whenever the SIM Leader wants the conversation recorded in full so that nothing is lost between the discussion and the action plan.
+* When the team needs both an attendance record and a structured set of actions ready to be assigned in one go at the end of the meeting.
 
 ## Prerequisites
 
