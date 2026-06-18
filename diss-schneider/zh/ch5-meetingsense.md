@@ -2,11 +2,11 @@
 icon: microphone
 ---
 
-# 5. MeetingSense
+# 5. Meeting Sense
 
 ### 概述
 
-**MeetingSense** 是集成在 DISS 中的会议录制和转录功能。它将 SIM 会议的口头对话转化为结构化数字数据：文字记录、执行摘要、提出的问题以及准备添加到 SIM 行动计划中的 AI 建议行动列表。会话自动与启动它的 SIM Board 的元数据（工厂、SIM 级别、生产区域）进行上下文关联，以便每个结果都已链接到正确的操作范围。
+**Meeting Sense** 是集成在 DISS 中的会议录制和转录功能。它将 SIM 会议的口头对话转化为结构化数字数据：文字记录、执行摘要、提出的问题以及准备添加到 SIM 行动计划中的 AI 建议行动列表。会话自动与启动它的 SIM Board 的元数据（工厂、SIM 级别、生产区域）进行上下文关联，以便每个结果都已链接到正确的操作范围。
 
 <figure><img src=".gitbook/assets/recording-widget-in-active-state-during-the-meeting-with-session-duration-and-audio-status-indicator.png" alt=""><figcaption></figcaption></figure>
 
@@ -18,7 +18,7 @@ icon: microphone
 
 ## 先决条件
 
-* 打开会议的 SIM Board 必须是 **SIM 2** Board（MeetingSense 在此 SIM 级别启用）。
+* 打开会议的 SIM Board 必须是 **SIM 2** Board（Meeting Sense 在此 SIM 级别启用）。
 * 用于启动会议的设备上必须有可用的麦克风。
 * 出勤角色必须为 SIM 2 Board 配置——可在**工厂配置 → 出勤 → SIM 2 出勤配置**中访问。
 * 用户必须有权限在相关 SIM Board 上启动会议。
@@ -121,5 +121,5 @@ icon: microphone
 * 清晰地发言并避免声音重叠：AI 提取质量随音频清晰度的提高而提升。
 * 准确提及姓名和日期——"张三，周五前"比"他，本周末"等隐含引用产生更可靠的 AI 建议。
 * 类别和负责人是行动创建的必填项：没有这些值的建议行动必须在验证表中完成后才能保存。
-* MeetingSense 是一个录制助手：SIM 负责人始终保持控制——行动只有在明确验证后才成为 SIM 计划的一部分，转录可以在创建任何行动之前编辑并重新汇总。
+* Meeting Sense 是一个录制助手：SIM 负责人始终保持控制——行动只有在明确验证后才成为 SIM 计划的一部分，转录可以在创建任何行动之前编辑并重新汇总。
 {% endhint %}
