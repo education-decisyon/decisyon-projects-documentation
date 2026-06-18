@@ -10,7 +10,14 @@ Esta Guía del Usuario describe las **capacidades de IA** recientemente añadida
 
 ### Nuevas funciones de IA
 
-| Función                                       | Descripción                                                                              || --------------------------------------------- | ---------------------------------------------------------------------------------------- || **5W2H Asistido por IA**   | Evalúa y puntúa la calidad del enunciado de problema Kata en 7 dimensiones              || **Búsqueda Histórica** | Encuentra Katas cerrados similares e importa selectivamente sus acciones al actual       || **Búsqueda Profunda**                   | Chatbot de IA que responde preguntas en lenguaje natural sobre una Fuente de Conocimiento || **Análisis de Reunión**           | Graba reuniones SIM, transcribe el audio y propone acciones automáticamente              || **Perspectivas de Reunión**     | Analiza patrones y responde preguntas sobre múltiples transcripciones de reuniones       || **Acciones en SIM**       | Crea, asigna y hace seguimiento de acciones correctivas directamente en el SIM Board     |
+| Función                                       | Descripción                                                                              |
+| --------------------------------------------- | ---------------------------------------------------------------------------------------- |
+| **5W2H Asistido por IA**   | Evalúa y puntúa la calidad del enunciado de problema Kata en 7 dimensiones              |
+| **Búsqueda Histórica** | Encuentra Katas cerrados similares e importa selectivamente sus acciones al actual       |
+| **Búsqueda Profunda**                   | Chatbot de IA que responde preguntas en lenguaje natural sobre una Fuente de Conocimiento |
+| **Análisis de Reunión**           | Graba reuniones SIM, transcribe el audio y propone acciones automáticamente              |
+| **Perspectivas de Reunión**     | Analiza patrones y responde preguntas sobre múltiples transcripciones de reuniones       |
+| **Acciones en SIM**       | Crea, asigna y hace seguimiento de acciones correctivas directamente en el SIM Board     |
 ### Estructura de la guía
 
 Cada capítulo sigue una estructura coherente:
