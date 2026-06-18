@@ -6,7 +6,7 @@ icon: chart-line
 
 ### 概述
 
-Meeting Insight 是一个 AI 代理，处理 MeetingSense 已捕获的会议。MeetingSense 专注于单个录制，而 Meeting Insight 同时分析多个会议记录，以识别整个档案中的模式、重复问题和汇总行动。它将单个 SIM 会议记录流转化为工厂或区域级的运营智慧。
+Meeting Insight 是一个 AI 代理，处理 Meeting Sense 已捕获的会议。Meeting Sense 专注于单个录制，而 Meeting Insight 同时分析多个会议记录，以识别整个档案中的模式、重复问题和汇总行动。它将单个 SIM 会议记录流转化为工厂或区域级的运营智慧。
 
 <figure><img src=".gitbook/assets/meeting-insight_action-items-list-aggregated-across-meetings.png" alt=""><figcaption></figcaption></figure>
 
@@ -19,7 +19,7 @@ Meeting Insight 是一个 AI 代理，处理 MeetingSense 已捕获的会议。M
 
 ## 先决条件
 
-* DISS 环境中必须至少存在一个由 MeetingSense 产生的会议记录。
+* DISS 环境中必须至少存在一个由 Meeting Sense 产生的会议记录。
 * 用户必须能访问会议概览档案。
 * 用户必须对分析中包含的会议具有读取权限。
 
@@ -106,7 +106,7 @@ Meeting Insight 是一个 AI 代理，处理 MeetingSense 已捕获的会议。M
 ## 提示与已知限制
 
 {% hint style="info" %}
-* 洞察质量随底层 MeetingSense 会议记录的质量而提升：鼓励在会议期间进行清晰录制并明确提及负责人和日期。
+* 洞察质量随底层 Meeting Sense 会议记录的质量而提升：鼓励在会议期间进行清晰录制并明确提及负责人和日期。
 * 在启动代理前使用筛选器——分析有针对性的数据集（如一个 SIM 级别和一个月）比分析整个档案产生更精确的洞察。
 * 在 SIM 会议本身期间的实时 AI 参与不是此版本的一部分：Meeting Insight 目前对已录制的会议记录进行操作。
 * 洞察仅供参考：负责人负责通过行动或 Kata 将重复模式转化为具体的应对措施。
