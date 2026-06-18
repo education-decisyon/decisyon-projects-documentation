@@ -2,7 +2,7 @@
 icon: list-check
 ---
 
-# 7. Actions in SIM
+# 7. Actions dans SIM
 
 ### Aperçu général
 
