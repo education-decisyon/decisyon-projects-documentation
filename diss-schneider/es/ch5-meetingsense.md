@@ -2,11 +2,11 @@
 icon: microphone
 ---
 
-# 5. Meeting Sense
+# 5. Análisis de Reunión
 
 ### Descripción general
 
-**Meeting Sense** es la capacidad de grabación y transcripción de reuniones integrada en DISS. Transforma el diálogo hablado de una reunión SIM en datos digitales estructurados: una transcripción textual, un resumen ejecutivo, los problemas planteados y una lista de acciones propuestas listas para añadirse al plan de acción SIM. La sesión se contextualiza automáticamente con los metadatos del SIM Board desde el que se lanzó (Planta, nivel SIM, Área de producción) para que cada resultado esté ya vinculado al ámbito operativo correcto.
+**Análisis de Reunión** es la capacidad de grabación y transcripción de reuniones integrada en DISS. Transforma el diálogo hablado de una reunión SIM en datos digitales estructurados: una transcripción textual, un resumen ejecutivo, los problemas planteados y una lista de acciones propuestas listas para añadirse al plan de acción SIM. La sesión se contextualiza automáticamente con los metadatos del SIM Board desde el que se lanzó (Planta, nivel SIM, Área de producción) para que cada resultado esté ya vinculado al ámbito operativo correcto.
 
 <figure><img src=".gitbook/assets/recording-widget-in-active-state-during-the-meeting-with-session-duration-and-audio-status-indicator.png" alt=""><figcaption></figcaption></figure>
 
@@ -18,7 +18,7 @@ icon: microphone
 
 ## Requisitos previos
 
-* El SIM Board en el que se abre la reunión debe ser un **SIM 2** Board (Meeting Sense está habilitado en este nivel SIM).
+* El SIM Board en el que se abre la reunión debe ser un **SIM 2** Board (Análisis de Reunión está habilitado en este nivel SIM).
 * Debe haber un micrófono funcionando en el dispositivo utilizado para iniciar la reunión.
 * Los roles de asistencia deben estar configurados para el SIM 2 Board — accesible en **Configuración de planta → Asistencia → Configuración de asistencia SIM 2.**
 * El usuario debe tener permiso para iniciar una reunión en el SIM Board en cuestión.
@@ -121,5 +121,5 @@ Un tiempo de espera predefinido protege contra reuniones dejadas abiertas por er
 * Hablar con claridad y evitar voces superpuestas: la calidad de extracción de IA escala con la claridad del audio.
 * Mencionar nombres y fechas con precisión — "Juan, para el viernes" produce una sugerencia de IA más sólida que referencias implícitas como "él, para fin de semana".
 * La Categoría y el Responsable son obligatorios para la creación de acciones: una acción propuesta sin esos valores debe completarse en la tabla de validación antes de poder guardarse.
-* Meeting Sense es un asistente de grabación: el Líder SIM siempre tiene el control — las acciones forman parte del plan SIM solo después de una validación explícita, y el transcript puede editarse y resumirse de nuevo antes de crear cualquier acción.
+* Análisis de Reunión es un asistente de grabación: el Líder SIM siempre tiene el control — las acciones forman parte del plan SIM solo después de una validación explícita, y el transcript puede editarse y resumirse de nuevo antes de crear cualquier acción.
 {% endhint %}
