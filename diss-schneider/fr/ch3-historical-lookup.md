@@ -2,11 +2,11 @@
 icon: clock-rotate-left
 ---
 
-# 3. Historical Lookup
+# 3. Recherche Historique
 
 ### Aperçu général
 
-**Historical Lookup** est une fonctionnalité IA qui, à partir du Kata QRCI en cours de traitement, recherche les Katas clôturés du même site et renvoie les plus similaires. Pour chaque Kata historique, l'utilisateur peut consulter l'explication IA sur la correspondance et importer — sélectivement — les actions qui ont été utilisées pour résoudre le problème passé, accélérant la réponse face aux problèmes récurrents.
+**Recherche Historique** est une fonctionnalité IA qui, à partir du Kata QRCI en cours de traitement, recherche les Katas clôturés du même site et renvoie les plus similaires. Pour chaque Kata historique, l'utilisateur peut consulter l'explication IA sur la correspondance et importer — sélectivement — les actions qui ont été utilisées pour résoudre le problème passé, accélérant la réponse face aux problèmes récurrents.
 
 <figure><img src=".gitbook/assets/historical-lookup_ai-analysis-accordion-expanded.png" alt=""><figcaption></figcaption></figure>
 
@@ -18,7 +18,7 @@ icon: clock-rotate-left
 
 ## Prérequis
 
-* Le Kata actuel doit avoir un Site défini : Historical Lookup ne s'active que lorsque le Site est configuré.
+* Le Kata actuel doit avoir un Site défini : Recherche Historique ne s'active que lorsque le Site est configuré.
 * Il doit exister au moins un Kata avec le statut **Clôturé** dans le périmètre de recherche pour que l'IA trouve des correspondances.
 * L'utilisateur doit avoir accès en lecture aux Katas historiques dans le périmètre de recherche.
 
@@ -34,7 +34,7 @@ icon: clock-rotate-left
 {% endstep %}
 
 {% step %}
-### Lancer Historical Lookup
+### Lancer Recherche Historique
 
 * Dans la colonne **Kata**, cliquer sur l'**icône de similarité Kata** à côté du Kata Ouvert en cours de traitement.
 
@@ -44,9 +44,9 @@ icon: clock-rotate-left
 {% step %}
 ### Attendre la fin de la recherche IA
 
-* La modale **AI Historical Lookup** s'ouvre et la recherche démarre automatiquement — aucune saisie supplémentaire n'est requise. Attendre la fin du message de chargement (« Chargement des Katas similaires… »).
+* La modale **AI Recherche Historique** s'ouvre et la recherche démarre automatiquement — aucune saisie supplémentaire n'est requise. Attendre la fin du message de chargement (« Chargement des Katas similaires… »).
 
-<figure><img src=".gitbook/assets/historical-lookup_modal-in-loading-state.png" alt="Modale Historical Lookup en état de chargement"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/historical-lookup_modal-in-loading-state.png" alt="Modale Recherche Historique en état de chargement"><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -136,7 +136,7 @@ Lorsqu'au moins une action est sélectionnée, le bouton **Importer N actions** 
 ## Conseils et limites connues
 
 {% hint style="info" %}
-* Par défaut, Historical Lookup recherche uniquement dans le site actuel. Lorsque le périmètre multi-site est activé, le site d'origine est clairement indiqué sur chaque résultat.
+* Par défaut, Recherche Historique recherche uniquement dans le site actuel. Lorsque le périmètre multi-site est activé, le site d'origine est clairement indiqué sur chaque résultat.
 * Seuls les Katas **Clôturés** sont pris en compte ; les Katas en cours sont exclus.
 * Les Katas identiques ou quasi identiques ne sont pas masqués — ils apparaissent avec une similarité très élevée pour que vous puissiez décider d'importer leurs actions.
 * Les actions importées repartent toujours de zéro (Statut = Ouvert, Date limite = par défaut aujourd'hui + 7 jours) : le nouveau responsable prend en charge le délai.
