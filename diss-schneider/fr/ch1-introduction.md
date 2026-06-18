@@ -14,8 +14,8 @@ Ce Guide Utilisateur décrit les **capacités d'IA** récemment ajoutées à la 
 | - | --------------------------------------------- | ---------------------------------------------------------------------------------------------- |
 | 2 | **AI-Assisted 5W2H**   | Évalue et note la qualité de l'énoncé de problème Kata selon 7 dimensions                   |
 | 3 | **Historical Lookup** | Trouve les Katas clôturés similaires et importe sélectivement leurs actions dans le Kata actuel |
-| 4 | **DeepFind**                   | Chatbot IA qui répond à des questions en langage naturel sur une Source de Connaissance        |
-| 5 | **MeetingSense**           | Enregistre les réunions SIM, transcrit l'audio et propose automatiquement des actions         |
+| 4 | **Deep Find**                   | Chatbot IA qui répond à des questions en langage naturel sur une Source de Connaissance        |
+| 5 | **Meeting Sense**           | Enregistre les réunions SIM, transcrit l'audio et propose automatiquement des actions         |
 | 6 | **Meeting Insight**     | Analyse les tendances et répond à des questions sur plusieurs transcriptions de réunions        |
 | 7 | **Actions in SIM**       | Crée, assigne et suit les actions correctives directement dans le SIM Board                    |
 
